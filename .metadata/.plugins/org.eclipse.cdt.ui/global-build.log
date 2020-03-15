@@ -1,0 +1,892 @@
+18:14:06 **** Build of configuration Debug for project hello world ****
+make -r -j4 all 
+Building file: ../startup/startup_mk22f51212.c
+Building file: ../drivers/fsl_clock.c
+Building file: ../source/hello world.c
+Building file: ../source/semihost_hardfault.c
+Invoking: MCU C Compiler
+Invoking: MCU C Compiler
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -DCPU_MK22FN512VLL12 -DCPU_MK22FN512VLL12_cm4 -I"C:\Users\fabia\Documents\MCUXpressoIDE_11.1.0_3209\workspace\hello world\board" -I"C:\Users\fabia\Documents\MCUXpressoIDE_11.1.0_3209\workspace\hello world\source" -I"C:\Users\fabia\Documents\MCUXpressoIDE_11.1.0_3209\workspace\hello world" -I"C:\Users\fabia\Documents\MCUXpressoIDE_11.1.0_3209\workspace\hello world\drivers" -I"C:\Users\fabia\Documents\MCUXpressoIDE_11.1.0_3209\workspace\hello world\device" -I"C:\Users\fabia\Documents\MCUXpressoIDE_11.1.0_3209\workspace\hello world\CMSIS" -O0 -fno-common -g3 -Wall -c -ffunction-sections -fdata-sections -ffreestanding -fno-builtin -fmerge-constants -fmacro-prefix-map="../startup/"=. -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -D__REDLIB__ -fstack-usage -specs=redlib.specs -MMD -MP -MF"startup/startup_mk22f51212.d" -MT"startup/startup_mk22f51212.o" -MT"startup/startup_mk22f51212.d" -o "startup/startup_mk22f51212.o" "../startup/startup_mk22f51212.c"
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -DCPU_MK22FN512VLL12 -DCPU_MK22FN512VLL12_cm4 -I"C:\Users\fabia\Documents\MCUXpressoIDE_11.1.0_3209\workspace\hello world\board" -I"C:\Users\fabia\Documents\MCUXpressoIDE_11.1.0_3209\workspace\hello world\source" -I"C:\Users\fabia\Documents\MCUXpressoIDE_11.1.0_3209\workspace\hello world" -I"C:\Users\fabia\Documents\MCUXpressoIDE_11.1.0_3209\workspace\hello world\drivers" -I"C:\Users\fabia\Documents\MCUXpressoIDE_11.1.0_3209\workspace\hello world\device" -I"C:\Users\fabia\Documents\MCUXpressoIDE_11.1.0_3209\workspace\hello world\CMSIS" -O0 -fno-common -g3 -Wall -c -ffunction-sections -fdata-sections -ffreestanding -fno-builtin -fmerge-constants -fmacro-prefix-map="../source ./"=. -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -D__REDLIB__ -fstack-usage -specs=redlib.specs -MMD -MP -MF"source/hello world.d" -MT"source/hello\ world.d" -o "source/hello world.o" "../source/hello world.c"
+arm-none-eabi-gcc -DCPU_MK22FN512VLL12 -DCPU_MK22FN512VLL12_cm4 -I"C:\Users\fabia\Documents\MCUXpressoIDE_11.1.0_3209\workspace\hello world\board" -I"C:\Users\fabia\Documents\MCUXpressoIDE_11.1.0_3209\workspace\hello world\source" -I"C:\Users\fabia\Documents\MCUXpressoIDE_11.1.0_3209\workspace\hello world" -I"C:\Users\fabia\Documents\MCUXpressoIDE_11.1.0_3209\workspace\hello world\drivers" -I"C:\Users\fabia\Documents\MCUXpressoIDE_11.1.0_3209\workspace\hello world\device" -I"C:\Users\fabia\Documents\MCUXpressoIDE_11.1.0_3209\workspace\hello world\CMSIS" -O0 -fno-common -g3 -Wall -c -ffunction-sections -fdata-sections -ffreestanding -fno-builtin -fmerge-constants -fmacro-prefix-map="../source/"=. -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -D__REDLIB__ -fstack-usage -specs=redlib.specs -MMD -MP -MF"source/semihost_hardfault.d" -MT"source/semihost_hardfault.o" -MT"source/semihost_hardfault.d" -o "source/semihost_hardfault.o" "../source/semihost_hardfault.c"
+arm-none-eabi-gcc -DCPU_MK22FN512VLL12 -DCPU_MK22FN512VLL12_cm4 -I"C:\Users\fabia\Documents\MCUXpressoIDE_11.1.0_3209\workspace\hello world\board" -I"C:\Users\fabia\Documents\MCUXpressoIDE_11.1.0_3209\workspace\hello world\source" -I"C:\Users\fabia\Documents\MCUXpressoIDE_11.1.0_3209\workspace\hello world" -I"C:\Users\fabia\Documents\MCUXpressoIDE_11.1.0_3209\workspace\hello world\drivers" -I"C:\Users\fabia\Documents\MCUXpressoIDE_11.1.0_3209\workspace\hello world\device" -I"C:\Users\fabia\Documents\MCUXpressoIDE_11.1.0_3209\workspace\hello world\CMSIS" -O0 -fno-common -g3 -Wall -c -ffunction-sections -fdata-sections -ffreestanding -fno-builtin -fmerge-constants -fmacro-prefix-map="../drivers/"=. -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -D__REDLIB__ -fstack-usage -specs=redlib.specs -MMD -MP -MF"drivers/fsl_clock.d" -MT"drivers/fsl_clock.o" -MT"drivers/fsl_clock.d" -o "drivers/fsl_clock.o" "../drivers/fsl_clock.c"
+Finished building: ../startup/startup_mk22f51212.c
+Finished building: ../source/hello world.c
+Finished building: ../source/semihost_hardfault.c
+Finished building: ../drivers/fsl_clock.c
+ 
+ 
+ 
+ 
+Building file: ../drivers/fsl_common.c
+Building file: ../drivers/fsl_gpio.c
+Invoking: MCU C Compiler
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -DCPU_MK22FN512VLL12 -DCPU_MK22FN512VLL12_cm4 -I"C:\Users\fabia\Documents\MCUXpressoIDE_11.1.0_3209\workspace\hello world\board" -I"C:\Users\fabia\Documents\MCUXpressoIDE_11.1.0_3209\workspace\hello world\source" -I"C:\Users\fabia\Documents\MCUXpressoIDE_11.1.0_3209\workspace\hello world" -I"C:\Users\fabia\Documents\MCUXpressoIDE_11.1.0_3209\workspace\hello world\drivers" -I"C:\Users\fabia\Documents\MCUXpressoIDE_11.1.0_3209\workspace\hello world\device" -I"C:\Users\fabia\Documents\MCUXpressoIDE_11.1.0_3209\workspace\hello world\CMSIS" -O0 -fno-common -g3 -Wall -c -ffunction-sections -fdata-sections -ffreestanding -fno-builtin -fmerge-constants -fmacro-prefix-map="../drivers/"=. -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -D__REDLIB__ -fstack-usage -specs=redlib.specs -MMD -MP -MF"drivers/fsl_common.d" -MT"drivers/fsl_common.o" -MT"drivers/fsl_common.d" -o "drivers/fsl_common.o" "../drivers/fsl_common.c"
+Building file: ../device/system_MK22F51212.c
+arm-none-eabi-gcc -DCPU_MK22FN512VLL12 -DCPU_MK22FN512VLL12_cm4 -I"C:\Users\fabia\Documents\MCUXpressoIDE_11.1.0_3209\workspace\hello world\board" -I"C:\Users\fabia\Documents\MCUXpressoIDE_11.1.0_3209\workspace\hello world\source" -I"C:\Users\fabia\Documents\MCUXpressoIDE_11.1.0_3209\workspace\hello world" -I"C:\Users\fabia\Documents\MCUXpressoIDE_11.1.0_3209\workspace\hello world\drivers" -I"C:\Users\fabia\Documents\MCUXpressoIDE_11.1.0_3209\workspace\hello world\device" -I"C:\Users\fabia\Documents\MCUXpressoIDE_11.1.0_3209\workspace\hello world\CMSIS" -O0 -fno-common -g3 -Wall -c -ffunction-sections -fdata-sections -ffreestanding -fno-builtin -fmerge-constants -fmacro-prefix-map="../drivers/"=. -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -D__REDLIB__ -fstack-usage -specs=redlib.specs -MMD -MP -MF"drivers/fsl_gpio.d" -MT"drivers/fsl_gpio.o" -MT"drivers/fsl_gpio.d" -o "drivers/fsl_gpio.o" "../drivers/fsl_gpio.c"
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -DCPU_MK22FN512VLL12 -DCPU_MK22FN512VLL12_cm4 -I"C:\Users\fabia\Documents\MCUXpressoIDE_11.1.0_3209\workspace\hello world\board" -I"C:\Users\fabia\Documents\MCUXpressoIDE_11.1.0_3209\workspace\hello world\source" -I"C:\Users\fabia\Documents\MCUXpressoIDE_11.1.0_3209\workspace\hello world" -I"C:\Users\fabia\Documents\MCUXpressoIDE_11.1.0_3209\workspace\hello world\drivers" -I"C:\Users\fabia\Documents\MCUXpressoIDE_11.1.0_3209\workspace\hello world\device" -I"C:\Users\fabia\Documents\MCUXpressoIDE_11.1.0_3209\workspace\hello world\CMSIS" -O0 -fno-common -g3 -Wall -c -ffunction-sections -fdata-sections -ffreestanding -fno-builtin -fmerge-constants -fmacro-prefix-map="../device/"=. -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -D__REDLIB__ -fstack-usage -specs=redlib.specs -MMD -MP -MF"device/system_MK22F51212.d" -MT"device/system_MK22F51212.o" -MT"device/system_MK22F51212.d" -o "device/system_MK22F51212.o" "../device/system_MK22F51212.c"
+Building file: ../board/board.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -DCPU_MK22FN512VLL12 -DCPU_MK22FN512VLL12_cm4 -I"C:\Users\fabia\Documents\MCUXpressoIDE_11.1.0_3209\workspace\hello world\board" -I"C:\Users\fabia\Documents\MCUXpressoIDE_11.1.0_3209\workspace\hello world\source" -I"C:\Users\fabia\Documents\MCUXpressoIDE_11.1.0_3209\workspace\hello world" -I"C:\Users\fabia\Documents\MCUXpressoIDE_11.1.0_3209\workspace\hello world\drivers" -I"C:\Users\fabia\Documents\MCUXpressoIDE_11.1.0_3209\workspace\hello world\device" -I"C:\Users\fabia\Documents\MCUXpressoIDE_11.1.0_3209\workspace\hello world\CMSIS" -O0 -fno-common -g3 -Wall -c -ffunction-sections -fdata-sections -ffreestanding -fno-builtin -fmerge-constants -fmacro-prefix-map="../board/"=. -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -D__REDLIB__ -fstack-usage -specs=redlib.specs -MMD -MP -MF"board/board.d" -MT"board/board.o" -MT"board/board.d" -o "board/board.o" "../board/board.c"
+Finished building: ../drivers/fsl_common.c
+Finished building: ../board/board.c
+Finished building: ../drivers/fsl_gpio.c
+ 
+Finished building: ../device/system_MK22F51212.c
+ 
+ 
+ 
+Building file: ../board/clock_config.c
+Building file: ../board/peripherals.c
+Building file: ../board/pin_mux.c
+Invoking: MCU C Compiler
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -DCPU_MK22FN512VLL12 -DCPU_MK22FN512VLL12_cm4 -I"C:\Users\fabia\Documents\MCUXpressoIDE_11.1.0_3209\workspace\hello world\board" -I"C:\Users\fabia\Documents\MCUXpressoIDE_11.1.0_3209\workspace\hello world\source" -I"C:\Users\fabia\Documents\MCUXpressoIDE_11.1.0_3209\workspace\hello world" -I"C:\Users\fabia\Documents\MCUXpressoIDE_11.1.0_3209\workspace\hello world\drivers" -I"C:\Users\fabia\Documents\MCUXpressoIDE_11.1.0_3209\workspace\hello world\device" -I"C:\Users\fabia\Documents\MCUXpressoIDE_11.1.0_3209\workspace\hello world\CMSIS" -O0 -fno-common -g3 -Wall -c -ffunction-sections -fdata-sections -ffreestanding -fno-builtin -fmerge-constants -fmacro-prefix-map="../board/"=. -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -D__REDLIB__ -fstack-usage -specs=redlib.specs -MMD -MP -MF"board/clock_config.d" -MT"board/clock_config.o" -MT"board/clock_config.d" -o "board/clock_config.o" "../board/clock_config.c"
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -DCPU_MK22FN512VLL12 -DCPU_MK22FN512VLL12_cm4 -I"C:\Users\fabia\Documents\MCUXpressoIDE_11.1.0_3209\workspace\hello world\board" -I"C:\Users\fabia\Documents\MCUXpressoIDE_11.1.0_3209\workspace\hello world\source" -I"C:\Users\fabia\Documents\MCUXpressoIDE_11.1.0_3209\workspace\hello world" -I"C:\Users\fabia\Documents\MCUXpressoIDE_11.1.0_3209\workspace\hello world\drivers" -I"C:\Users\fabia\Documents\MCUXpressoIDE_11.1.0_3209\workspace\hello world\device" -I"C:\Users\fabia\Documents\MCUXpressoIDE_11.1.0_3209\workspace\hello world\CMSIS" -O0 -fno-common -g3 -Wall -c -ffunction-sections -fdata-sections -ffreestanding -fno-builtin -fmerge-constants -fmacro-prefix-map="../board/"=. -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -D__REDLIB__ -fstack-usage -specs=redlib.specs -MMD -MP -MF"board/peripherals.d" -MT"board/peripherals.o" -MT"board/peripherals.d" -o "board/peripherals.o" "../board/peripherals.c"
+arm-none-eabi-gcc -DCPU_MK22FN512VLL12 -DCPU_MK22FN512VLL12_cm4 -I"C:\Users\fabia\Documents\MCUXpressoIDE_11.1.0_3209\workspace\hello world\board" -I"C:\Users\fabia\Documents\MCUXpressoIDE_11.1.0_3209\workspace\hello world\source" -I"C:\Users\fabia\Documents\MCUXpressoIDE_11.1.0_3209\workspace\hello world" -I"C:\Users\fabia\Documents\MCUXpressoIDE_11.1.0_3209\workspace\hello world\drivers" -I"C:\Users\fabia\Documents\MCUXpressoIDE_11.1.0_3209\workspace\hello world\device" -I"C:\Users\fabia\Documents\MCUXpressoIDE_11.1.0_3209\workspace\hello world\CMSIS" -O0 -fno-common -g3 -Wall -c -ffunction-sections -fdata-sections -ffreestanding -fno-builtin -fmerge-constants -fmacro-prefix-map="../board/"=. -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -D__REDLIB__ -fstack-usage -specs=redlib.specs -MMD -MP -MF"board/pin_mux.d" -MT"board/pin_mux.o" -MT"board/pin_mux.d" -o "board/pin_mux.o" "../board/pin_mux.c"
+Finished building: ../board/peripherals.c
+ 
+Finished building: ../board/pin_mux.c
+ 
+Finished building: ../board/clock_config.c
+ 
+Building target: hello world.axf
+Invoking: MCU Linker
+arm-none-eabi-gcc -nostdlib -Xlinker -Map="hello world.map" -Xlinker --gc-sections -Xlinker -print-memory-usage -Xlinker --sort-section=alignment -Xlinker --cref -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -T hello_world_Debug.ld -o "hello world.axf"  ./startup/startup_mk22f51212.o  ./source/hello\ world.o ./source/semihost_hardfault.o  ./drivers/fsl_clock.o ./drivers/fsl_common.o ./drivers/fsl_gpio.o  ./device/system_MK22F51212.o  ./board/board.o ./board/clock_config.o ./board/peripherals.o ./board/pin_mux.o   
+Memory region         Used Size  Region Size  %age Used
+   PROGRAM_FLASH:       14824 B       512 KB      2.83%
+      SRAM_UPPER:        8408 B        64 KB     12.83%
+      SRAM_LOWER:          0 GB        64 KB      0.00%
+Finished building target: hello world.axf
+ 
+make --no-print-directory post-build
+Performing post-build steps
+arm-none-eabi-size "hello world.axf"; # arm-none-eabi-objcopy -v -O binary "hello world.axf" "hello world.bin" ; # checksum -p MK22FN512xxx12 -d "hello world.bin";
+   text	   data	    bss	    dec	    hex	filename
+  14812	     12	   8396	  23220	   5ab4	hello world.axf
+ 
+18:16:23 **** Incremental Build of configuration Debug for project hello world ****
+make -r -j4 all 
+Building file: ../source/hello world.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -DCPU_MK22FN512VLL12 -DCPU_MK22FN512VLL12_cm4 -I"C:\Users\fabia\Documents\MCUXpressoIDE_11.1.0_3209\workspace\hello world\board" -I"C:\Users\fabia\Documents\MCUXpressoIDE_11.1.0_3209\workspace\hello world\source" -I"C:\Users\fabia\Documents\MCUXpressoIDE_11.1.0_3209\workspace\hello world" -I"C:\Users\fabia\Documents\MCUXpressoIDE_11.1.0_3209\workspace\hello world\drivers" -I"C:\Users\fabia\Documents\MCUXpressoIDE_11.1.0_3209\workspace\hello world\device" -I"C:\Users\fabia\Documents\MCUXpressoIDE_11.1.0_3209\workspace\hello world\CMSIS" -O0 -fno-common -g3 -Wall -c -ffunction-sections -fdata-sections -ffreestanding -fno-builtin -fmerge-constants -fmacro-prefix-map="../source ./"=. -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -D__REDLIB__ -fstack-usage -specs=redlib.specs -MMD -MP -MF"source/hello world.d" -MT"source/hello\ world.d" -o "source/hello world.o" "../source/hello world.c"
+Finished building: ../source/hello world.c
+ 
+Building target: hello world.axf
+Invoking: MCU Linker
+arm-none-eabi-gcc -nostdlib -Xlinker -Map="hello world.map" -Xlinker --gc-sections -Xlinker -print-memory-usage -Xlinker --sort-section=alignment -Xlinker --cref -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -T hello_world_Debug.ld -o "hello world.axf"  ./startup/startup_mk22f51212.o  ./source/hello\ world.o ./source/semihost_hardfault.o  ./drivers/fsl_clock.o ./drivers/fsl_common.o ./drivers/fsl_gpio.o  ./device/system_MK22F51212.o  ./board/board.o ./board/clock_config.o ./board/peripherals.o ./board/pin_mux.o   
+Memory region         Used Size  Region Size  %age Used
+   PROGRAM_FLASH:       14824 B       512 KB      2.83%
+      SRAM_UPPER:        8408 B        64 KB     12.83%
+      SRAM_LOWER:          0 GB        64 KB      0.00%
+Finished building target: hello world.axf
+ 
+make --no-print-directory post-build
+Performing post-build steps
+arm-none-eabi-size "hello world.axf"; # arm-none-eabi-objcopy -v -O binary "hello world.axf" "hello world.bin" ; # checksum -p MK22FN512xxx12 -d "hello world.bin";
+   text	   data	    bss	    dec	    hex	filename
+  14812	     12	   8396	  23220	   5ab4	hello world.axf
+ 
+16:48:35 **** Incremental Build of configuration Debug for project hello world ****
+make -r -j4 all 
+Building file: ../source/hello world.c
+Building file: ../source/semihost_hardfault.c
+Building file: ../startup/startup_mk22f51212.c
+Building file: ../drivers/fsl_clock.c
+Invoking: MCU C Compiler
+Invoking: MCU C Compiler
+Invoking: MCU C Compiler
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -DCPU_MK22FN512VLL12 -DCPU_MK22FN512VLL12_cm4 -D__REDLIB__ -I"C:\Users\fabia\Documents\MCUXpressoIDE_11.1.0_3209\workspace\hello world\board" -I"C:\Users\fabia\Documents\MCUXpressoIDE_11.1.0_3209\workspace\hello world\source" -I"C:\Users\fabia\Documents\MCUXpressoIDE_11.1.0_3209\workspace\hello world" -I"C:\Users\fabia\Documents\MCUXpressoIDE_11.1.0_3209\workspace\hello world\drivers" -I"C:\Users\fabia\Documents\MCUXpressoIDE_11.1.0_3209\workspace\hello world\device" -I"C:\Users\fabia\Documents\MCUXpressoIDE_11.1.0_3209\workspace\hello world\CMSIS" -O0 -fno-common -g3 -Wall -c -ffunction-sections -fdata-sections -ffreestanding -fno-builtin -fmerge-constants -fmacro-prefix-map="../source ./"=. -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -D__REDLIB__ -fstack-usage -specs=redlib.specs -MMD -MP -MF"source/hello world.d" -MT"source/hello\ world.d" -o "source/hello world.o" "../source/hello world.c"
+arm-none-eabi-gcc -DCPU_MK22FN512VLL12 -DCPU_MK22FN512VLL12_cm4 -D__REDLIB__ -I"C:\Users\fabia\Documents\MCUXpressoIDE_11.1.0_3209\workspace\hello world\board" -I"C:\Users\fabia\Documents\MCUXpressoIDE_11.1.0_3209\workspace\hello world\source" -I"C:\Users\fabia\Documents\MCUXpressoIDE_11.1.0_3209\workspace\hello world" -I"C:\Users\fabia\Documents\MCUXpressoIDE_11.1.0_3209\workspace\hello world\drivers" -I"C:\Users\fabia\Documents\MCUXpressoIDE_11.1.0_3209\workspace\hello world\device" -I"C:\Users\fabia\Documents\MCUXpressoIDE_11.1.0_3209\workspace\hello world\CMSIS" -O0 -fno-common -g3 -Wall -c -ffunction-sections -fdata-sections -ffreestanding -fno-builtin -fmerge-constants -fmacro-prefix-map="../startup/"=. -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -D__REDLIB__ -fstack-usage -specs=redlib.specs -MMD -MP -MF"startup/startup_mk22f51212.d" -MT"startup/startup_mk22f51212.o" -MT"startup/startup_mk22f51212.d" -o "startup/startup_mk22f51212.o" "../startup/startup_mk22f51212.c"
+arm-none-eabi-gcc -DCPU_MK22FN512VLL12 -DCPU_MK22FN512VLL12_cm4 -D__REDLIB__ -I"C:\Users\fabia\Documents\MCUXpressoIDE_11.1.0_3209\workspace\hello world\board" -I"C:\Users\fabia\Documents\MCUXpressoIDE_11.1.0_3209\workspace\hello world\source" -I"C:\Users\fabia\Documents\MCUXpressoIDE_11.1.0_3209\workspace\hello world" -I"C:\Users\fabia\Documents\MCUXpressoIDE_11.1.0_3209\workspace\hello world\drivers" -I"C:\Users\fabia\Documents\MCUXpressoIDE_11.1.0_3209\workspace\hello world\device" -I"C:\Users\fabia\Documents\MCUXpressoIDE_11.1.0_3209\workspace\hello world\CMSIS" -O0 -fno-common -g3 -Wall -c -ffunction-sections -fdata-sections -ffreestanding -fno-builtin -fmerge-constants -fmacro-prefix-map="../source/"=. -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -D__REDLIB__ -fstack-usage -specs=redlib.specs -MMD -MP -MF"source/semihost_hardfault.d" -MT"source/semihost_hardfault.o" -MT"source/semihost_hardfault.d" -o "source/semihost_hardfault.o" "../source/semihost_hardfault.c"
+arm-none-eabi-gcc -DCPU_MK22FN512VLL12 -DCPU_MK22FN512VLL12_cm4 -D__REDLIB__ -I"C:\Users\fabia\Documents\MCUXpressoIDE_11.1.0_3209\workspace\hello world\board" -I"C:\Users\fabia\Documents\MCUXpressoIDE_11.1.0_3209\workspace\hello world\source" -I"C:\Users\fabia\Documents\MCUXpressoIDE_11.1.0_3209\workspace\hello world" -I"C:\Users\fabia\Documents\MCUXpressoIDE_11.1.0_3209\workspace\hello world\drivers" -I"C:\Users\fabia\Documents\MCUXpressoIDE_11.1.0_3209\workspace\hello world\device" -I"C:\Users\fabia\Documents\MCUXpressoIDE_11.1.0_3209\workspace\hello world\CMSIS" -O0 -fno-common -g3 -Wall -c -ffunction-sections -fdata-sections -ffreestanding -fno-builtin -fmerge-constants -fmacro-prefix-map="../drivers/"=. -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -D__REDLIB__ -fstack-usage -specs=redlib.specs -MMD -MP -MF"drivers/fsl_clock.d" -MT"drivers/fsl_clock.o" -MT"drivers/fsl_clock.d" -o "drivers/fsl_clock.o" "../drivers/fsl_clock.c"
+../source/hello world.c: In function 'main':
+../source/hello world.c:70:22: warning: implicit declaration of function 'GPIO_PinRead'; did you mean 'GPIO_PDIR_PDI'? [-Wimplicit-function-declaration]
+         char state = GPIO_PinRead(BOARD_INITPINS_LED_A_GPIO, BOARD_INITPINS_LED_A_PIN) == 0;
+                      ^~~~~~~~~~~~
+                      GPIO_PDIR_PDI
+../source/hello world.c:70:35: error: 'BOARD_INITPINS_LED_A_GPIO' undeclared (first use in this function)
+         char state = GPIO_PinRead(BOARD_INITPINS_LED_A_GPIO, BOARD_INITPINS_LED_A_PIN) == 0;
+                                   ^~~~~~~~~~~~~~~~~~~~~~~~~
+../source/hello world.c:70:35: note: each undeclared identifier is reported only once for each function it appears in
+../source/hello world.c:70:62: error: 'BOARD_INITPINS_LED_A_PIN' undeclared (first use in this function)
+         char state = GPIO_PinRead(BOARD_INITPINS_LED_A_GPIO, BOARD_INITPINS_LED_A_PIN) == 0;
+                                                              ^~~~~~~~~~~~~~~~~~~~~~~~
+../source/hello world.c:72:9: warning: implicit declaration of function 'GPIO_PinWrite' [-Wimplicit-function-declaration]
+         GPIO_PinWrite(BOARD_INITPINS_LED_B_GPIO, BOARD_INITPINS_LED_A_PIN, state);
+         ^~~~~~~~~~~~~
+../source/hello world.c:72:23: error: 'BOARD_INITPINS_LED_B_GPIO' undeclared (first use in this function)
+         GPIO_PinWrite(BOARD_INITPINS_LED_B_GPIO, BOARD_INITPINS_LED_A_PIN, state);
+                       ^~~~~~~~~~~~~~~~~~~~~~~~~
+make: *** [source/subdir.mk:23: source/hello world.o] Error 1
+make: *** Waiting for unfinished jobs....
+Finished building: ../source/semihost_hardfault.c
+Finished building: ../startup/startup_mk22f51212.c
+ 
+Finished building: ../drivers/fsl_clock.c
+ 
+ 
+"make -r -j4 all" terminated with exit code 2. Build might be incomplete.
+16:53:41 **** Incremental Build of configuration Debug for project hello world ****
+make -r -j4 all 
+Building file: ../source/hello world.c
+Building file: ../drivers/fsl_common.c
+Building file: ../drivers/fsl_gpio.c
+Building file: ../device/system_MK22F51212.c
+Invoking: MCU C Compiler
+Invoking: MCU C Compiler
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -DCPU_MK22FN512VLL12 -DCPU_MK22FN512VLL12_cm4 -D__REDLIB__ -I"C:\Users\fabia\Documents\MCUXpressoIDE_11.1.0_3209\workspace\hello world\board" -I"C:\Users\fabia\Documents\MCUXpressoIDE_11.1.0_3209\workspace\hello world\source" -I"C:\Users\fabia\Documents\MCUXpressoIDE_11.1.0_3209\workspace\hello world" -I"C:\Users\fabia\Documents\MCUXpressoIDE_11.1.0_3209\workspace\hello world\drivers" -I"C:\Users\fabia\Documents\MCUXpressoIDE_11.1.0_3209\workspace\hello world\device" -I"C:\Users\fabia\Documents\MCUXpressoIDE_11.1.0_3209\workspace\hello world\CMSIS" -O0 -fno-common -g3 -Wall -c -ffunction-sections -fdata-sections -ffreestanding -fno-builtin -fmerge-constants -fmacro-prefix-map="../source ./"=. -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -D__REDLIB__ -fstack-usage -specs=redlib.specs -MMD -MP -MF"source/hello world.d" -MT"source/hello\ world.d" -o "source/hello world.o" "../source/hello world.c"
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -DCPU_MK22FN512VLL12 -DCPU_MK22FN512VLL12_cm4 -D__REDLIB__ -I"C:\Users\fabia\Documents\MCUXpressoIDE_11.1.0_3209\workspace\hello world\board" -I"C:\Users\fabia\Documents\MCUXpressoIDE_11.1.0_3209\workspace\hello world\source" -I"C:\Users\fabia\Documents\MCUXpressoIDE_11.1.0_3209\workspace\hello world" -I"C:\Users\fabia\Documents\MCUXpressoIDE_11.1.0_3209\workspace\hello world\drivers" -I"C:\Users\fabia\Documents\MCUXpressoIDE_11.1.0_3209\workspace\hello world\device" -I"C:\Users\fabia\Documents\MCUXpressoIDE_11.1.0_3209\workspace\hello world\CMSIS" -O0 -fno-common -g3 -Wall -c -ffunction-sections -fdata-sections -ffreestanding -fno-builtin -fmerge-constants -fmacro-prefix-map="../drivers/"=. -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -D__REDLIB__ -fstack-usage -specs=redlib.specs -MMD -MP -MF"drivers/fsl_common.d" -MT"drivers/fsl_common.o" -MT"drivers/fsl_common.d" -o "drivers/fsl_common.o" "../drivers/fsl_common.c"
+arm-none-eabi-gcc -DCPU_MK22FN512VLL12 -DCPU_MK22FN512VLL12_cm4 -D__REDLIB__ -I"C:\Users\fabia\Documents\MCUXpressoIDE_11.1.0_3209\workspace\hello world\board" -I"C:\Users\fabia\Documents\MCUXpressoIDE_11.1.0_3209\workspace\hello world\source" -I"C:\Users\fabia\Documents\MCUXpressoIDE_11.1.0_3209\workspace\hello world" -I"C:\Users\fabia\Documents\MCUXpressoIDE_11.1.0_3209\workspace\hello world\drivers" -I"C:\Users\fabia\Documents\MCUXpressoIDE_11.1.0_3209\workspace\hello world\device" -I"C:\Users\fabia\Documents\MCUXpressoIDE_11.1.0_3209\workspace\hello world\CMSIS" -O0 -fno-common -g3 -Wall -c -ffunction-sections -fdata-sections -ffreestanding -fno-builtin -fmerge-constants -fmacro-prefix-map="../drivers/"=. -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -D__REDLIB__ -fstack-usage -specs=redlib.specs -MMD -MP -MF"drivers/fsl_gpio.d" -MT"drivers/fsl_gpio.o" -MT"drivers/fsl_gpio.d" -o "drivers/fsl_gpio.o" "../drivers/fsl_gpio.c"
+arm-none-eabi-gcc -DCPU_MK22FN512VLL12 -DCPU_MK22FN512VLL12_cm4 -D__REDLIB__ -I"C:\Users\fabia\Documents\MCUXpressoIDE_11.1.0_3209\workspace\hello world\board" -I"C:\Users\fabia\Documents\MCUXpressoIDE_11.1.0_3209\workspace\hello world\source" -I"C:\Users\fabia\Documents\MCUXpressoIDE_11.1.0_3209\workspace\hello world" -I"C:\Users\fabia\Documents\MCUXpressoIDE_11.1.0_3209\workspace\hello world\drivers" -I"C:\Users\fabia\Documents\MCUXpressoIDE_11.1.0_3209\workspace\hello world\device" -I"C:\Users\fabia\Documents\MCUXpressoIDE_11.1.0_3209\workspace\hello world\CMSIS" -O0 -fno-common -g3 -Wall -c -ffunction-sections -fdata-sections -ffreestanding -fno-builtin -fmerge-constants -fmacro-prefix-map="../device/"=. -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -D__REDLIB__ -fstack-usage -specs=redlib.specs -MMD -MP -MF"device/system_MK22F51212.d" -MT"device/system_MK22F51212.o" -MT"device/system_MK22F51212.d" -o "device/system_MK22F51212.o" "../device/system_MK22F51212.c"
+../source/hello world.c: In function 'main':
+../source/hello world.c:70:22: warning: implicit declaration of function 'GPIO_PinRead'; did you mean 'GPIO_PDIR_PDI'? [-Wimplicit-function-declaration]
+         char state = GPIO_PinRead(BOARD_INITPINS_LED_RED_R_R_GPIO, BOARD_INITPINS_LED_RED_R_R_PIN) == 0;
+                      ^~~~~~~~~~~~
+                      GPIO_PDIR_PDI
+../source/hello world.c:72:9: warning: implicit declaration of function 'GPIO_PinWrite' [-Wimplicit-function-declaration]
+         GPIO_PinWrite(BOARD_INITPINS_LED_RED_R_R_GPIO, BOARD_INITPINS_LED_RED_R_R_PIN, state);
+         ^~~~~~~~~~~~~
+Finished building: ../device/system_MK22F51212.c
+Finished building: ../drivers/fsl_common.c
+ 
+Finished building: ../drivers/fsl_gpio.c
+ 
+Building file: ../board/board.c
+ 
+Building file: ../board/clock_config.c
+Finished building: ../source/hello world.c
+Invoking: MCU C Compiler
+Invoking: MCU C Compiler
+Building file: ../board/peripherals.c
+arm-none-eabi-gcc -DCPU_MK22FN512VLL12 -DCPU_MK22FN512VLL12_cm4 -D__REDLIB__ -I"C:\Users\fabia\Documents\MCUXpressoIDE_11.1.0_3209\workspace\hello world\board" -I"C:\Users\fabia\Documents\MCUXpressoIDE_11.1.0_3209\workspace\hello world\source" -I"C:\Users\fabia\Documents\MCUXpressoIDE_11.1.0_3209\workspace\hello world" -I"C:\Users\fabia\Documents\MCUXpressoIDE_11.1.0_3209\workspace\hello world\drivers" -I"C:\Users\fabia\Documents\MCUXpressoIDE_11.1.0_3209\workspace\hello world\device" -I"C:\Users\fabia\Documents\MCUXpressoIDE_11.1.0_3209\workspace\hello world\CMSIS" -O0 -fno-common -g3 -Wall -c -ffunction-sections -fdata-sections -ffreestanding -fno-builtin -fmerge-constants -fmacro-prefix-map="../board/"=. -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -D__REDLIB__ -fstack-usage -specs=redlib.specs -MMD -MP -MF"board/board.d" -MT"board/board.o" -MT"board/board.d" -o "board/board.o" "../board/board.c"
+arm-none-eabi-gcc -DCPU_MK22FN512VLL12 -DCPU_MK22FN512VLL12_cm4 -D__REDLIB__ -I"C:\Users\fabia\Documents\MCUXpressoIDE_11.1.0_3209\workspace\hello world\board" -I"C:\Users\fabia\Documents\MCUXpressoIDE_11.1.0_3209\workspace\hello world\source" -I"C:\Users\fabia\Documents\MCUXpressoIDE_11.1.0_3209\workspace\hello world" -I"C:\Users\fabia\Documents\MCUXpressoIDE_11.1.0_3209\workspace\hello world\drivers" -I"C:\Users\fabia\Documents\MCUXpressoIDE_11.1.0_3209\workspace\hello world\device" -I"C:\Users\fabia\Documents\MCUXpressoIDE_11.1.0_3209\workspace\hello world\CMSIS" -O0 -fno-common -g3 -Wall -c -ffunction-sections -fdata-sections -ffreestanding -fno-builtin -fmerge-constants -fmacro-prefix-map="../board/"=. -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -D__REDLIB__ -fstack-usage -specs=redlib.specs -MMD -MP -MF"board/clock_config.d" -MT"board/clock_config.o" -MT"board/clock_config.d" -o "board/clock_config.o" "../board/clock_config.c"
+ 
+Invoking: MCU C Compiler
+Building file: ../board/pin_mux.c
+arm-none-eabi-gcc -DCPU_MK22FN512VLL12 -DCPU_MK22FN512VLL12_cm4 -D__REDLIB__ -I"C:\Users\fabia\Documents\MCUXpressoIDE_11.1.0_3209\workspace\hello world\board" -I"C:\Users\fabia\Documents\MCUXpressoIDE_11.1.0_3209\workspace\hello world\source" -I"C:\Users\fabia\Documents\MCUXpressoIDE_11.1.0_3209\workspace\hello world" -I"C:\Users\fabia\Documents\MCUXpressoIDE_11.1.0_3209\workspace\hello world\drivers" -I"C:\Users\fabia\Documents\MCUXpressoIDE_11.1.0_3209\workspace\hello world\device" -I"C:\Users\fabia\Documents\MCUXpressoIDE_11.1.0_3209\workspace\hello world\CMSIS" -O0 -fno-common -g3 -Wall -c -ffunction-sections -fdata-sections -ffreestanding -fno-builtin -fmerge-constants -fmacro-prefix-map="../board/"=. -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -D__REDLIB__ -fstack-usage -specs=redlib.specs -MMD -MP -MF"board/peripherals.d" -MT"board/peripherals.o" -MT"board/peripherals.d" -o "board/peripherals.o" "../board/peripherals.c"
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -DCPU_MK22FN512VLL12 -DCPU_MK22FN512VLL12_cm4 -D__REDLIB__ -I"C:\Users\fabia\Documents\MCUXpressoIDE_11.1.0_3209\workspace\hello world\board" -I"C:\Users\fabia\Documents\MCUXpressoIDE_11.1.0_3209\workspace\hello world\source" -I"C:\Users\fabia\Documents\MCUXpressoIDE_11.1.0_3209\workspace\hello world" -I"C:\Users\fabia\Documents\MCUXpressoIDE_11.1.0_3209\workspace\hello world\drivers" -I"C:\Users\fabia\Documents\MCUXpressoIDE_11.1.0_3209\workspace\hello world\device" -I"C:\Users\fabia\Documents\MCUXpressoIDE_11.1.0_3209\workspace\hello world\CMSIS" -O0 -fno-common -g3 -Wall -c -ffunction-sections -fdata-sections -ffreestanding -fno-builtin -fmerge-constants -fmacro-prefix-map="../board/"=. -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -D__REDLIB__ -fstack-usage -specs=redlib.specs -MMD -MP -MF"board/pin_mux.d" -MT"board/pin_mux.o" -MT"board/pin_mux.d" -o "board/pin_mux.o" "../board/pin_mux.c"
+Finished building: ../board/board.c
+ 
+Finished building: ../board/peripherals.c
+ 
+Finished building: ../board/clock_config.c
+ 
+Finished building: ../board/pin_mux.c
+ 
+Building target: hello world.axf
+Invoking: MCU Linker
+arm-none-eabi-gcc -nostdlib -Xlinker -Map="hello world.map" -Xlinker --gc-sections -Xlinker -print-memory-usage -Xlinker --sort-section=alignment -Xlinker --cref -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -T hello_world_Debug.ld -o "hello world.axf"  ./startup/startup_mk22f51212.o  ./source/hello\ world.o ./source/semihost_hardfault.o  ./drivers/fsl_clock.o ./drivers/fsl_common.o ./drivers/fsl_gpio.o  ./device/system_MK22F51212.o  ./board/board.o ./board/clock_config.o ./board/peripherals.o ./board/pin_mux.o   
+Memory region         Used Size  Region Size  %age Used
+   PROGRAM_FLASH:       15108 B       512 KB      2.88%
+      SRAM_UPPER:        8408 B        64 KB     12.83%
+c:/nxp_shit/mcuxpressoide_11.1.0_3209/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.1.0.201909161352/tools/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/bin/ld.exe: ./source/hello world.o: in function `main':
+      SRAM_LOWER:          0 GB        64 KB      0.00%
+C:\Users\fabia\Documents\MCUXpressoIDE_11.1.0_3209\workspace\hello world\Debug/../source/hello world.c:70: undefined reference to `GPIO_PinRead'
+c:/nxp_shit/mcuxpressoide_11.1.0_3209/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.1.0.201909161352/tools/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/bin/ld.exe: C:\Users\fabia\Documents\MCUXpressoIDE_11.1.0_3209\workspace\hello world\Debug/../source/hello world.c:72: undefined reference to `GPIO_PinWrite'
+collect2.exe: error: ld returned 1 exit status
+make: *** [makefile:36: hello world.axf] Error 1
+"make -r -j4 all" terminated with exit code 2. Build might be incomplete.
+16:54:57 **** Incremental Build of configuration Debug for project hello world ****
+make -r -j4 all 
+Building file: ../source/hello world.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -DCPU_MK22FN512VLL12 -DCPU_MK22FN512VLL12_cm4 -D__REDLIB__ -I"C:\Users\fabia\Documents\MCUXpressoIDE_11.1.0_3209\workspace\hello world\board" -I"C:\Users\fabia\Documents\MCUXpressoIDE_11.1.0_3209\workspace\hello world\source" -I"C:\Users\fabia\Documents\MCUXpressoIDE_11.1.0_3209\workspace\hello world" -I"C:\Users\fabia\Documents\MCUXpressoIDE_11.1.0_3209\workspace\hello world\drivers" -I"C:\Users\fabia\Documents\MCUXpressoIDE_11.1.0_3209\workspace\hello world\device" -I"C:\Users\fabia\Documents\MCUXpressoIDE_11.1.0_3209\workspace\hello world\CMSIS" -O0 -fno-common -g3 -Wall -c -ffunction-sections -fdata-sections -ffreestanding -fno-builtin -fmerge-constants -fmacro-prefix-map="../source ./"=. -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -D__REDLIB__ -fstack-usage -specs=redlib.specs -MMD -MP -MF"source/hello world.d" -MT"source/hello\ world.d" -o "source/hello world.o" "../source/hello world.c"
+Finished building: ../source/hello world.c
+ 
+Building target: hello world.axf
+Invoking: MCU Linker
+arm-none-eabi-gcc -nostdlib -Xlinker -Map="hello world.map" -Xlinker --gc-sections -Xlinker -print-memory-usage -Xlinker --sort-section=alignment -Xlinker --cref -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -T hello_world_Debug.ld -o "hello world.axf"  ./startup/startup_mk22f51212.o  ./source/hello\ world.o ./source/semihost_hardfault.o  ./drivers/fsl_clock.o ./drivers/fsl_common.o ./drivers/fsl_gpio.o  ./device/system_MK22F51212.o  ./board/board.o ./board/clock_config.o ./board/peripherals.o ./board/pin_mux.o   
+Memory region         Used Size  Region Size  %age Used
+   PROGRAM_FLASH:       15200 B       512 KB      2.90%
+      SRAM_UPPER:        8408 B        64 KB     12.83%
+      SRAM_LOWER:          0 GB        64 KB      0.00%
+Finished building target: hello world.axf
+ 
+make --no-print-directory post-build
+Performing post-build steps
+arm-none-eabi-size "hello world.axf"; # arm-none-eabi-objcopy -v -O binary "hello world.axf" "hello world.bin" ; # checksum -p MK22FN512xxx12 -d "hello world.bin";
+   text	   data	    bss	    dec	    hex	filename
+  15188	     12	   8396	  23596	   5c2c	hello world.axf
+ 
+16:55:26 **** Incremental Build of configuration Debug for project hello world ****
+make -r -j4 all 
+make: Nothing to be done for 'all'.
+16:58:08 **** Incremental Build of configuration Debug for project hello world ****
+make -r -j4 all 
+Building file: ../source/hello world.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -DCPU_MK22FN512VLL12 -DCPU_MK22FN512VLL12_cm4 -D__REDLIB__ -I"C:\Users\fabia\Documents\MCUXpressoIDE_11.1.0_3209\workspace\hello world\board" -I"C:\Users\fabia\Documents\MCUXpressoIDE_11.1.0_3209\workspace\hello world\source" -I"C:\Users\fabia\Documents\MCUXpressoIDE_11.1.0_3209\workspace\hello world" -I"C:\Users\fabia\Documents\MCUXpressoIDE_11.1.0_3209\workspace\hello world\drivers" -I"C:\Users\fabia\Documents\MCUXpressoIDE_11.1.0_3209\workspace\hello world\device" -I"C:\Users\fabia\Documents\MCUXpressoIDE_11.1.0_3209\workspace\hello world\CMSIS" -O0 -fno-common -g3 -Wall -c -ffunction-sections -fdata-sections -ffreestanding -fno-builtin -fmerge-constants -fmacro-prefix-map="../source ./"=. -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -D__REDLIB__ -fstack-usage -specs=redlib.specs -MMD -MP -MF"source/hello world.d" -MT"source/hello\ world.d" -o "source/hello world.o" "../source/hello world.c"
+Finished building: ../source/hello world.c
+ 
+Building target: hello world.axf
+Invoking: MCU Linker
+arm-none-eabi-gcc -nostdlib -Xlinker -Map="hello world.map" -Xlinker --gc-sections -Xlinker -print-memory-usage -Xlinker --sort-section=alignment -Xlinker --cref -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -T hello_world_Debug.ld -o "hello world.axf"  ./startup/startup_mk22f51212.o  ./source/hello\ world.o ./source/semihost_hardfault.o  ./drivers/fsl_clock.o ./drivers/fsl_common.o ./drivers/fsl_gpio.o  ./device/system_MK22F51212.o  ./board/board.o ./board/clock_config.o ./board/peripherals.o ./board/pin_mux.o   
+Memory region         Used Size  Region Size  %age Used
+   PROGRAM_FLASH:       15200 B       512 KB      2.90%
+      SRAM_UPPER:        8408 B        64 KB     12.83%
+      SRAM_LOWER:          0 GB        64 KB      0.00%
+Finished building target: hello world.axf
+ 
+make --no-print-directory post-build
+Performing post-build steps
+arm-none-eabi-size "hello world.axf"; # arm-none-eabi-objcopy -v -O binary "hello world.axf" "hello world.bin" ; # checksum -p MK22FN512xxx12 -d "hello world.bin";
+   text	   data	    bss	    dec	    hex	filename
+  15188	     12	   8396	  23596	   5c2c	hello world.axf
+ 
+17:05:48 **** Incremental Build of configuration Debug for project hello world ****
+make -r -j4 all 
+Building file: ../source/hello world.c
+Building file: ../board/pin_mux.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -DCPU_MK22FN512VLL12 -DCPU_MK22FN512VLL12_cm4 -D__REDLIB__ -I"C:\Users\fabia\Documents\MCUXpressoIDE_11.1.0_3209\workspace\hello world\board" -I"C:\Users\fabia\Documents\MCUXpressoIDE_11.1.0_3209\workspace\hello world\source" -I"C:\Users\fabia\Documents\MCUXpressoIDE_11.1.0_3209\workspace\hello world" -I"C:\Users\fabia\Documents\MCUXpressoIDE_11.1.0_3209\workspace\hello world\drivers" -I"C:\Users\fabia\Documents\MCUXpressoIDE_11.1.0_3209\workspace\hello world\device" -I"C:\Users\fabia\Documents\MCUXpressoIDE_11.1.0_3209\workspace\hello world\CMSIS" -O0 -fno-common -g3 -Wall -c -ffunction-sections -fdata-sections -ffreestanding -fno-builtin -fmerge-constants -fmacro-prefix-map="../source ./"=. -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -D__REDLIB__ -fstack-usage -specs=redlib.specs -MMD -MP -MF"source/hello world.d" -MT"source/hello\ world.d" -o "source/hello world.o" "../source/hello world.c"
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -DCPU_MK22FN512VLL12 -DCPU_MK22FN512VLL12_cm4 -D__REDLIB__ -I"C:\Users\fabia\Documents\MCUXpressoIDE_11.1.0_3209\workspace\hello world\board" -I"C:\Users\fabia\Documents\MCUXpressoIDE_11.1.0_3209\workspace\hello world\source" -I"C:\Users\fabia\Documents\MCUXpressoIDE_11.1.0_3209\workspace\hello world" -I"C:\Users\fabia\Documents\MCUXpressoIDE_11.1.0_3209\workspace\hello world\drivers" -I"C:\Users\fabia\Documents\MCUXpressoIDE_11.1.0_3209\workspace\hello world\device" -I"C:\Users\fabia\Documents\MCUXpressoIDE_11.1.0_3209\workspace\hello world\CMSIS" -O0 -fno-common -g3 -Wall -c -ffunction-sections -fdata-sections -ffreestanding -fno-builtin -fmerge-constants -fmacro-prefix-map="../board/"=. -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -D__REDLIB__ -fstack-usage -specs=redlib.specs -MMD -MP -MF"board/pin_mux.d" -MT"board/pin_mux.o" -MT"board/pin_mux.d" -o "board/pin_mux.o" "../board/pin_mux.c"
+../source/hello world.c: In function 'main':
+../source/hello world.c:66:14: warning: unused variable 'state_blue' [-Wunused-variable]
+         char state_blue = GPIO_PinRead(BOARD_INITPINS_LED_BLUE_F_L_GPIO, BOARD_INITPINS_LED_BLUE_F_L_PIN) == 0;
+              ^~~~~~~~~~
+Finished building: ../board/pin_mux.c
+Finished building: ../source/hello world.c
+ 
+ 
+Building target: hello world.axf
+Invoking: MCU Linker
+arm-none-eabi-gcc -nostdlib -Xlinker -Map="hello world.map" -Xlinker --gc-sections -Xlinker -print-memory-usage -Xlinker --sort-section=alignment -Xlinker --cref -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -T hello_world_Debug.ld -o "hello world.axf"  ./startup/startup_mk22f51212.o  ./source/hello\ world.o ./source/semihost_hardfault.o  ./drivers/fsl_clock.o ./drivers/fsl_common.o ./drivers/fsl_gpio.o  ./device/system_MK22F51212.o  ./board/board.o ./board/clock_config.o ./board/peripherals.o ./board/pin_mux.o   
+Memory region         Used Size  Region Size  %age Used
+   PROGRAM_FLASH:       15252 B       512 KB      2.91%
+      SRAM_UPPER:        8408 B        64 KB     12.83%
+      SRAM_LOWER:          0 GB        64 KB      0.00%
+Finished building target: hello world.axf
+ 
+make --no-print-directory post-build
+Performing post-build steps
+arm-none-eabi-size "hello world.axf"; # arm-none-eabi-objcopy -v -O binary "hello world.axf" "hello world.bin" ; # checksum -p MK22FN512xxx12 -d "hello world.bin";
+   text	   data	    bss	    dec	    hex	filename
+  15240	     12	   8396	  23648	   5c60	hello world.axf
+ 
+17:06:47 **** Incremental Build of configuration Debug for project hello world ****
+make -r -j4 all 
+Building file: ../source/hello world.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -DCPU_MK22FN512VLL12 -DCPU_MK22FN512VLL12_cm4 -D__REDLIB__ -I"C:\Users\fabia\Documents\MCUXpressoIDE_11.1.0_3209\workspace\hello world\board" -I"C:\Users\fabia\Documents\MCUXpressoIDE_11.1.0_3209\workspace\hello world\source" -I"C:\Users\fabia\Documents\MCUXpressoIDE_11.1.0_3209\workspace\hello world" -I"C:\Users\fabia\Documents\MCUXpressoIDE_11.1.0_3209\workspace\hello world\drivers" -I"C:\Users\fabia\Documents\MCUXpressoIDE_11.1.0_3209\workspace\hello world\device" -I"C:\Users\fabia\Documents\MCUXpressoIDE_11.1.0_3209\workspace\hello world\CMSIS" -O0 -fno-common -g3 -Wall -c -ffunction-sections -fdata-sections -ffreestanding -fno-builtin -fmerge-constants -fmacro-prefix-map="../source ./"=. -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -D__REDLIB__ -fstack-usage -specs=redlib.specs -MMD -MP -MF"source/hello world.d" -MT"source/hello\ world.d" -o "source/hello world.o" "../source/hello world.c"
+Finished building: ../source/hello world.c
+ 
+Building target: hello world.axf
+Invoking: MCU Linker
+arm-none-eabi-gcc -nostdlib -Xlinker -Map="hello world.map" -Xlinker --gc-sections -Xlinker -print-memory-usage -Xlinker --sort-section=alignment -Xlinker --cref -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -T hello_world_Debug.ld -o "hello world.axf"  ./startup/startup_mk22f51212.o  ./source/hello\ world.o ./source/semihost_hardfault.o  ./drivers/fsl_clock.o ./drivers/fsl_common.o ./drivers/fsl_gpio.o  ./device/system_MK22F51212.o  ./board/board.o ./board/clock_config.o ./board/peripherals.o ./board/pin_mux.o   
+Memory region         Used Size  Region Size  %age Used
+   PROGRAM_FLASH:       15252 B       512 KB      2.91%
+      SRAM_UPPER:        8408 B        64 KB     12.83%
+      SRAM_LOWER:          0 GB        64 KB      0.00%
+Finished building target: hello world.axf
+ 
+make --no-print-directory post-build
+Performing post-build steps
+arm-none-eabi-size "hello world.axf"; # arm-none-eabi-objcopy -v -O binary "hello world.axf" "hello world.bin" ; # checksum -p MK22FN512xxx12 -d "hello world.bin";
+   text	   data	    bss	    dec	    hex	filename
+  15240	     12	   8396	  23648	   5c60	hello world.axf
+ 
+17:49:02 **** Incremental Build of configuration Debug for project hello world ****
+make -r -j4 all 
+Building file: ../source/led.c
+Building file: ../source/hello world.c
+Building file: ../board/pin_mux.c
+Invoking: MCU C Compiler
+Invoking: MCU C Compiler
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -DCPU_MK22FN512VLL12 -DCPU_MK22FN512VLL12_cm4 -D__REDLIB__ -I"C:\Users\fabia\Documents\MCUXpressoIDE_11.1.0_3209\workspace\hello world\board" -I"C:\Users\fabia\Documents\MCUXpressoIDE_11.1.0_3209\workspace\hello world\source" -I"C:\Users\fabia\Documents\MCUXpressoIDE_11.1.0_3209\workspace\hello world" -I"C:\Users\fabia\Documents\MCUXpressoIDE_11.1.0_3209\workspace\hello world\drivers" -I"C:\Users\fabia\Documents\MCUXpressoIDE_11.1.0_3209\workspace\hello world\device" -I"C:\Users\fabia\Documents\MCUXpressoIDE_11.1.0_3209\workspace\hello world\CMSIS" -O0 -fno-common -g3 -Wall -c -ffunction-sections -fdata-sections -ffreestanding -fno-builtin -fmerge-constants -fmacro-prefix-map="../board/"=. -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -D__REDLIB__ -fstack-usage -specs=redlib.specs -MMD -MP -MF"board/pin_mux.d" -MT"board/pin_mux.o" -MT"board/pin_mux.d" -o "board/pin_mux.o" "../board/pin_mux.c"
+arm-none-eabi-gcc -DCPU_MK22FN512VLL12 -DCPU_MK22FN512VLL12_cm4 -D__REDLIB__ -I"C:\Users\fabia\Documents\MCUXpressoIDE_11.1.0_3209\workspace\hello world\board" -I"C:\Users\fabia\Documents\MCUXpressoIDE_11.1.0_3209\workspace\hello world\source" -I"C:\Users\fabia\Documents\MCUXpressoIDE_11.1.0_3209\workspace\hello world" -I"C:\Users\fabia\Documents\MCUXpressoIDE_11.1.0_3209\workspace\hello world\drivers" -I"C:\Users\fabia\Documents\MCUXpressoIDE_11.1.0_3209\workspace\hello world\device" -I"C:\Users\fabia\Documents\MCUXpressoIDE_11.1.0_3209\workspace\hello world\CMSIS" -O0 -fno-common -g3 -Wall -c -ffunction-sections -fdata-sections -ffreestanding -fno-builtin -fmerge-constants -fmacro-prefix-map="../source/"=. -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -D__REDLIB__ -fstack-usage -specs=redlib.specs -MMD -MP -MF"source/led.d" -MT"source/led.o" -MT"source/led.d" -o "source/led.o" "../source/led.c"
+arm-none-eabi-gcc -DCPU_MK22FN512VLL12 -DCPU_MK22FN512VLL12_cm4 -D__REDLIB__ -I"C:\Users\fabia\Documents\MCUXpressoIDE_11.1.0_3209\workspace\hello world\board" -I"C:\Users\fabia\Documents\MCUXpressoIDE_11.1.0_3209\workspace\hello world\source" -I"C:\Users\fabia\Documents\MCUXpressoIDE_11.1.0_3209\workspace\hello world" -I"C:\Users\fabia\Documents\MCUXpressoIDE_11.1.0_3209\workspace\hello world\drivers" -I"C:\Users\fabia\Documents\MCUXpressoIDE_11.1.0_3209\workspace\hello world\device" -I"C:\Users\fabia\Documents\MCUXpressoIDE_11.1.0_3209\workspace\hello world\CMSIS" -O0 -fno-common -g3 -Wall -c -ffunction-sections -fdata-sections -ffreestanding -fno-builtin -fmerge-constants -fmacro-prefix-map="../source ./"=. -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -D__REDLIB__ -fstack-usage -specs=redlib.specs -MMD -MP -MF"source/hello world.d" -MT"source/hello\ world.d" -o "source/hello world.o" "../source/hello world.c"
+../source/led.c: In function 'toggle_led':
+../source/led.c:5:28: error: incompatible type for argument 1 of 'GPIO_PinRead'
+  char state = GPIO_PinRead(gpio_type, pin) == 0;
+                            ^~~~~~~~~
+In file included from ../source/led.c:1:
+C:\Users\fabia\Documents\MCUXpressoIDE_11.1.0_3209\workspace\hello world\drivers/fsl_gpio.h:216:48: note: expected 'GPIO_Type *' {aka 'struct <anonymous> *'} but argument is of type 'GPIO_Type' {aka 'struct <anonymous>'}
+ static inline uint32_t GPIO_PinRead(GPIO_Type *base, uint32_t pin)
+                                     ~~~~~~~~~~~^~~~
+../source/led.c:6:16: error: incompatible type for argument 1 of 'GPIO_PinWrite'
+  GPIO_PinWrite(gpio_type, pin, state);
+                ^~~~~~~~~
+In file included from ../source/led.c:1:
+C:\Users\fabia\Documents\MCUXpressoIDE_11.1.0_3209\workspace\hello world\drivers/fsl_gpio.h:155:45: note: expected 'GPIO_Type *' {aka 'struct <anonymous> *'} but argument is of type 'GPIO_Type' {aka 'struct <anonymous>'}
+ static inline void GPIO_PinWrite(GPIO_Type *base, uint32_t pin, uint8_t output)
+                                  ~~~~~~~~~~~^~~~
+In file included from ../source/hello world.c:43:
+../source/led.c: In function 'toggle_led':
+../source/led.c:5:28: error: incompatible type for argument 1 of 'GPIO_PinRead'
+  char state = GPIO_PinRead(gpio_type, pin) == 0;
+                            ^~~~~~~~~
+In file included from ../source/hello world.c:42:
+C:\Users\fabia\Documents\MCUXpressoIDE_11.1.0_3209\workspace\hello world\drivers/fsl_gpio.h:216:48: note: expected 'GPIO_Type *' {aka 'struct <anonymous> *'} but argument is of type 'GPIO_Type' {aka 'struct <anonymous>'}
+ static inline uint32_t GPIO_PinRead(GPIO_Type *base, uint32_t pin)
+                                     ~~~~~~~~~~~^~~~
+In file included from ../source/hello world.c:43:
+../source/led.c:6:16: error: incompatible type for argument 1 of 'GPIO_PinWrite'
+  GPIO_PinWrite(gpio_type, pin, state);
+                ^~~~~~~~~
+In file included from ../source/hello world.c:42:
+C:\Users\fabia\Documents\MCUXpressoIDE_11.1.0_3209\workspace\hello world\drivers/fsl_gpio.h:155:45: note: expected 'GPIO_Type *' {aka 'struct <anonymous> *'} but argument is of type 'GPIO_Type' {aka 'struct <anonymous>'}
+ static inline void GPIO_PinWrite(GPIO_Type *base, uint32_t pin, uint8_t output)
+                                  ~~~~~~~~~~~^~~~
+In file included from C:\Users\fabia\Documents\MCUXpressoIDE_11.1.0_3209\workspace\hello world\device/fsl_device_registers.h:23,
+                 from C:\Users\fabia\Documents\MCUXpressoIDE_11.1.0_3209\workspace\hello world\drivers/fsl_common.h:31,
+                 from C:\Users\fabia\Documents\MCUXpressoIDE_11.1.0_3209\workspace\hello world\board/clock_config.h:9,
+                 from ../source/hello world.c:39:
+../source/hello world.c: In function 'main':
+C:\Users\fabia\Documents\MCUXpressoIDE_11.1.0_3209\workspace\hello world\device/MK22F51212.h:6201:50: error: incompatible type for argument 1 of 'toggle_led'
+ #define GPIOA                                    ((GPIO_Type *)GPIOA_BASE)
+                                                  ^~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\fabia\Documents\MCUXpressoIDE_11.1.0_3209\workspace\hello world\board/pin_mux.h:30:41: note: in expansion of macro 'GPIOA'
+ #define BOARD_INITPINS_LED_RED_R_R_GPIO GPIOA /*!<@brief GPIO device name: GPIOA */
+                                         ^~~~~
+../source/hello world.c:63:20: note: in expansion of macro 'BOARD_INITPINS_LED_RED_R_R_GPIO'
+         toggle_led(BOARD_INITPINS_LED_RED_R_R_GPIO, BOARD_INITPINS_LED_RED_R_R_PIN);
+                    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from ../source/hello world.c:43:
+../source/led.c:4:27: note: expected 'GPIO_Type' {aka 'struct <anonymous>'} but argument is of type 'GPIO_Type *' {aka 'struct <anonymous> *'}
+ void toggle_led(GPIO_Type gpio_type, uint32_t pin) {
+                 ~~~~~~~~~~^~~~~~~~~
+In file included from C:\Users\fabia\Documents\MCUXpressoIDE_11.1.0_3209\workspace\hello world\device/fsl_device_registers.h:23,
+                 from C:\Users\fabia\Documents\MCUXpressoIDE_11.1.0_3209\workspace\hello world\drivers/fsl_common.h:31,
+                 from C:\Users\fabia\Documents\MCUXpressoIDE_11.1.0_3209\workspace\hello world\board/clock_config.h:9,
+                 from ../source/hello world.c:39:
+C:\Users\fabia\Documents\MCUXpressoIDE_11.1.0_3209\workspace\hello world\device/MK22F51212.h:6209:50: error: incompatible type for argument 1 of 'toggle_led'
+ #define GPIOC                                    ((GPIO_Type *)GPIOC_BASE)
+                                                  ^~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\fabia\Documents\MCUXpressoIDE_11.1.0_3209\workspace\hello world\board/pin_mux.h:44:42: note: in expansion of macro 'GPIOC'
+ #define BOARD_INITPINS_LED_BLUE_F_L_GPIO GPIOC /*!<@brief GPIO device name: GPIOC */
+                                          ^~~~~
+../source/hello world.c:66:20: note: in expansion of macro 'BOARD_INITPINS_LED_BLUE_F_L_GPIO'
+         toggle_led(BOARD_INITPINS_LED_BLUE_F_L_GPIO, BOARD_INITPINS_LED_BLUE_F_L_PIN);;
+                    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from ../source/hello world.c:43:
+../source/led.c:4:27: note: expected 'GPIO_Type' {aka 'struct <anonymous>'} but argument is of type 'GPIO_Type *' {aka 'struct <anonymous> *'}
+ void toggle_led(GPIO_Type gpio_type, uint32_t pin) {
+                 ~~~~~~~~~~^~~~~~~~~
+make: *** [source/subdir.mk:26: source/hello world.o] Error 1
+make: *** Waiting for unfinished jobs....
+make: *** [source/subdir.mk:33: source/led.o] Error 1
+Finished building: ../board/pin_mux.c
+ 
+"make -r -j4 all" terminated with exit code 2. Build might be incomplete.
+17:49:16 **** Incremental Build of configuration Debug for project hello world ****
+make -r -j4 all 
+Building file: ../source/hello world.c
+Building file: ../source/led.c
+Invoking: MCU C Compiler
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -DCPU_MK22FN512VLL12 -DCPU_MK22FN512VLL12_cm4 -D__REDLIB__ -I"C:\Users\fabia\Documents\MCUXpressoIDE_11.1.0_3209\workspace\hello world\board" -I"C:\Users\fabia\Documents\MCUXpressoIDE_11.1.0_3209\workspace\hello world\source" -I"C:\Users\fabia\Documents\MCUXpressoIDE_11.1.0_3209\workspace\hello world" -I"C:\Users\fabia\Documents\MCUXpressoIDE_11.1.0_3209\workspace\hello world\drivers" -I"C:\Users\fabia\Documents\MCUXpressoIDE_11.1.0_3209\workspace\hello world\device" -I"C:\Users\fabia\Documents\MCUXpressoIDE_11.1.0_3209\workspace\hello world\CMSIS" -O0 -fno-common -g3 -Wall -c -ffunction-sections -fdata-sections -ffreestanding -fno-builtin -fmerge-constants -fmacro-prefix-map="../source ./"=. -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -D__REDLIB__ -fstack-usage -specs=redlib.specs -MMD -MP -MF"source/hello world.d" -MT"source/hello\ world.d" -o "source/hello world.o" "../source/hello world.c"
+arm-none-eabi-gcc -DCPU_MK22FN512VLL12 -DCPU_MK22FN512VLL12_cm4 -D__REDLIB__ -I"C:\Users\fabia\Documents\MCUXpressoIDE_11.1.0_3209\workspace\hello world\board" -I"C:\Users\fabia\Documents\MCUXpressoIDE_11.1.0_3209\workspace\hello world\source" -I"C:\Users\fabia\Documents\MCUXpressoIDE_11.1.0_3209\workspace\hello world" -I"C:\Users\fabia\Documents\MCUXpressoIDE_11.1.0_3209\workspace\hello world\drivers" -I"C:\Users\fabia\Documents\MCUXpressoIDE_11.1.0_3209\workspace\hello world\device" -I"C:\Users\fabia\Documents\MCUXpressoIDE_11.1.0_3209\workspace\hello world\CMSIS" -O0 -fno-common -g3 -Wall -c -ffunction-sections -fdata-sections -ffreestanding -fno-builtin -fmerge-constants -fmacro-prefix-map="../source/"=. -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -D__REDLIB__ -fstack-usage -specs=redlib.specs -MMD -MP -MF"source/led.d" -MT"source/led.o" -MT"source/led.d" -o "source/led.o" "../source/led.c"
+Finished building: ../source/led.c
+Finished building: ../source/hello world.c
+ 
+ 
+Building target: hello world.axf
+Invoking: MCU Linker
+arm-none-eabi-gcc -nostdlib -Xlinker -Map="hello world.map" -Xlinker --gc-sections -Xlinker -print-memory-usage -Xlinker --sort-section=alignment -Xlinker --cref -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -T hello_world_Debug.ld -o "hello world.axf"  ./startup/startup_mk22f51212.o  ./source/hello\ world.o ./source/led.o ./source/semihost_hardfault.o  ./drivers/fsl_clock.o ./drivers/fsl_common.o ./drivers/fsl_gpio.o  ./device/system_MK22F51212.o  ./board/board.o ./board/clock_config.o ./board/peripherals.o ./board/pin_mux.o   
+Memory region         Used Size  Region Size  %age Used
+   PROGRAM_FLASH:       15484 B       512 KB      2.95%
+      SRAM_UPPER:        8408 B        64 KB     12.83%
+c:/nxp_shit/mcuxpressoide_11.1.0_3209/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.1.0.201909161352/tools/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/bin/ld.exe: ./source/led.o: in function `toggle_led':
+      SRAM_LOWER:          0 GB        64 KB      0.00%
+C:\Users\fabia\Documents\MCUXpressoIDE_11.1.0_3209\workspace\hello world\Debug/../source/led.c:4: multiple definition of `toggle_led'; ./source/hello world.o:C:\Users\fabia\Documents\MCUXpressoIDE_11.1.0_3209\workspace\hello world\Debug/../source/led.c:4: first defined here
+collect2.exe: error: ld returned 1 exit status
+make: *** [makefile:36: hello world.axf] Error 1
+"make -r -j4 all" terminated with exit code 2. Build might be incomplete.
+17:50:59 **** Incremental Build of configuration Debug for project hello world ****
+make -r -j4 all 
+Building file: ../source/hello world.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -DCPU_MK22FN512VLL12 -DCPU_MK22FN512VLL12_cm4 -D__REDLIB__ -I"C:\Users\fabia\Documents\MCUXpressoIDE_11.1.0_3209\workspace\hello world\board" -I"C:\Users\fabia\Documents\MCUXpressoIDE_11.1.0_3209\workspace\hello world\source" -I"C:\Users\fabia\Documents\MCUXpressoIDE_11.1.0_3209\workspace\hello world" -I"C:\Users\fabia\Documents\MCUXpressoIDE_11.1.0_3209\workspace\hello world\drivers" -I"C:\Users\fabia\Documents\MCUXpressoIDE_11.1.0_3209\workspace\hello world\device" -I"C:\Users\fabia\Documents\MCUXpressoIDE_11.1.0_3209\workspace\hello world\CMSIS" -O0 -fno-common -g3 -Wall -c -ffunction-sections -fdata-sections -ffreestanding -fno-builtin -fmerge-constants -fmacro-prefix-map="../source ./"=. -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -D__REDLIB__ -fstack-usage -specs=redlib.specs -MMD -MP -MF"source/hello world.d" -MT"source/hello\ world.d" -o "source/hello world.o" "../source/hello world.c"
+Finished building: ../source/hello world.c
+ 
+Building target: hello world.axf
+Invoking: MCU Linker
+arm-none-eabi-gcc -nostdlib -Xlinker -Map="hello world.map" -Xlinker --gc-sections -Xlinker -print-memory-usage -Xlinker --sort-section=alignment -Xlinker --cref -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -T hello_world_Debug.ld -o "hello world.axf"  ./startup/startup_mk22f51212.o  ./source/hello\ world.o ./source/led.o ./source/semihost_hardfault.o  ./drivers/fsl_clock.o ./drivers/fsl_common.o ./drivers/fsl_gpio.o  ./device/system_MK22F51212.o  ./board/board.o ./board/clock_config.o ./board/peripherals.o ./board/pin_mux.o   
+Memory region         Used Size  Region Size  %age Used
+   PROGRAM_FLASH:       15460 B       512 KB      2.95%
+c:/nxp_shit/mcuxpressoide_11.1.0_3209/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.1.0.201909161352/tools/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/bin/ld.exe: ./source/led.o: in function `toggle_led':
+      SRAM_UPPER:        8408 B        64 KB     12.83%
+C:\Users\fabia\Documents\MCUXpressoIDE_11.1.0_3209\workspace\hello world\Debug/../source/led.c:4: multiple definition of `toggle_led'; ./source/hello world.o:C:\Users\fabia\Documents\MCUXpressoIDE_11.1.0_3209\workspace\hello world\Debug/../source/led.c:4: first defined here
+      SRAM_LOWER:          0 GB        64 KB      0.00%
+collect2.exe: error: ld returned 1 exit status
+make: *** [makefile:36: hello world.axf] Error 1
+"make -r -j4 all" terminated with exit code 2. Build might be incomplete.
+16:32:10 **** Build of configuration Debug for project hello world ****
+make -r -j4 all 
+Building file: ../board/pin_mux.c
+Building file: ../source/hello world.c
+Building file: ../source/led.c
+Invoking: MCU C Compiler
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -DCPU_MK22FN512VLL12 -DCPU_MK22FN512VLL12_cm4 -D__REDLIB__ -I"C:\Users\fabia\SynologyDrive\Dokumente\HSLU\Semester\6\MICRO\mcux\workspace\hello world\board" -I"C:\Users\fabia\SynologyDrive\Dokumente\HSLU\Semester\6\MICRO\mcux\workspace\hello world\source" -I"C:\Users\fabia\SynologyDrive\Dokumente\HSLU\Semester\6\MICRO\mcux\workspace\hello world" -I"C:\Users\fabia\SynologyDrive\Dokumente\HSLU\Semester\6\MICRO\mcux\workspace\hello world\drivers" -I"C:\Users\fabia\SynologyDrive\Dokumente\HSLU\Semester\6\MICRO\mcux\workspace\hello world\device" -I"C:\Users\fabia\SynologyDrive\Dokumente\HSLU\Semester\6\MICRO\mcux\workspace\hello world\CMSIS" -O0 -fno-common -g3 -Wall -c -ffunction-sections -fdata-sections -ffreestanding -fno-builtin -fmerge-constants -fmacro-prefix-map="../board/"=. -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -D__REDLIB__ -fstack-usage -specs=redlib.specs -MMD -MP -MF"board/pin_mux.d" -MT"board/pin_mux.o" -MT"board/pin_mux.d" -o "board/pin_mux.o" "../board/pin_mux.c"
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -DCPU_MK22FN512VLL12 -DCPU_MK22FN512VLL12_cm4 -D__REDLIB__ -I"C:\Users\fabia\SynologyDrive\Dokumente\HSLU\Semester\6\MICRO\mcux\workspace\hello world\board" -I"C:\Users\fabia\SynologyDrive\Dokumente\HSLU\Semester\6\MICRO\mcux\workspace\hello world\source" -I"C:\Users\fabia\SynologyDrive\Dokumente\HSLU\Semester\6\MICRO\mcux\workspace\hello world" -I"C:\Users\fabia\SynologyDrive\Dokumente\HSLU\Semester\6\MICRO\mcux\workspace\hello world\drivers" -I"C:\Users\fabia\SynologyDrive\Dokumente\HSLU\Semester\6\MICRO\mcux\workspace\hello world\device" -I"C:\Users\fabia\SynologyDrive\Dokumente\HSLU\Semester\6\MICRO\mcux\workspace\hello world\CMSIS" -O0 -fno-common -g3 -Wall -c -ffunction-sections -fdata-sections -ffreestanding -fno-builtin -fmerge-constants -fmacro-prefix-map="../source ./"=. -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -D__REDLIB__ -fstack-usage -specs=redlib.specs -MMD -MP -MF"source/hello world.d" -MT"source/hello\ world.d" -o "source/hello world.o" "../source/hello world.c"
+arm-none-eabi-gcc -DCPU_MK22FN512VLL12 -DCPU_MK22FN512VLL12_cm4 -D__REDLIB__ -I"C:\Users\fabia\SynologyDrive\Dokumente\HSLU\Semester\6\MICRO\mcux\workspace\hello world\board" -I"C:\Users\fabia\SynologyDrive\Dokumente\HSLU\Semester\6\MICRO\mcux\workspace\hello world\source" -I"C:\Users\fabia\SynologyDrive\Dokumente\HSLU\Semester\6\MICRO\mcux\workspace\hello world" -I"C:\Users\fabia\SynologyDrive\Dokumente\HSLU\Semester\6\MICRO\mcux\workspace\hello world\drivers" -I"C:\Users\fabia\SynologyDrive\Dokumente\HSLU\Semester\6\MICRO\mcux\workspace\hello world\device" -I"C:\Users\fabia\SynologyDrive\Dokumente\HSLU\Semester\6\MICRO\mcux\workspace\hello world\CMSIS" -O0 -fno-common -g3 -Wall -c -ffunction-sections -fdata-sections -ffreestanding -fno-builtin -fmerge-constants -fmacro-prefix-map="../source/"=. -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -D__REDLIB__ -fstack-usage -specs=redlib.specs -MMD -MP -MF"source/led.d" -MT"source/led.o" -MT"source/led.d" -o "source/led.o" "../source/led.c"
+Finished building: ../source/hello world.c
+Finished building: ../source/led.c
+Finished building: ../board/pin_mux.c
+ 
+ 
+ 
+Building target: hello world.axf
+Invoking: MCU Linker
+arm-none-eabi-gcc -nostdlib -Xlinker -Map="hello world.map" -Xlinker --gc-sections -Xlinker -print-memory-usage -Xlinker --sort-section=alignment -Xlinker --cref -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -T hello_world_Debug.ld -o "hello world.axf"  ./startup/startup_mk22f51212.o  ./source/hello\ world.o ./source/led.o ./source/semihost_hardfault.o  ./drivers/fsl_clock.o ./drivers/fsl_common.o ./drivers/fsl_gpio.o  ./device/system_MK22F51212.o  ./board/board.o ./board/clock_config.o ./board/peripherals.o ./board/pin_mux.o   
+Memory region         Used Size  Region Size  %age Used
+   PROGRAM_FLASH:        6168 B       512 KB      1.18%
+      SRAM_UPPER:        8388 B        64 KB     12.80%
+c:/nxp_shit/mcuxpressoide_11.1.0_3209/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.1.0.201909161352/tools/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/bin/ld.exe: ./source/led.o: in function `toggle_led':
+      SRAM_LOWER:          0 GB        64 KB      0.00%
+C:\Users\fabia\SynologyDrive\Dokumente\HSLU\Semester\6\MICRO\mcux\workspace\hello world\Debug/../source/led.c:4: multiple definition of `toggle_led'; ./source/hello world.o:C:\Users\fabia\SynologyDrive\Dokumente\HSLU\Semester\6\MICRO\mcux\workspace\hello world\Debug/../source/led.c:4: first defined here
+collect2.exe: error: ld returned 1 exit status
+make: *** [makefile:36: hello world.axf] Error 1
+"make -r -j4 all" terminated with exit code 2. Build might be incomplete.
+16:32:46 **** Incremental Build of configuration Debug for project hello world ****
+make -r -j4 all 
+Building file: ../source/hello world.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -DCPU_MK22FN512VLL12 -DCPU_MK22FN512VLL12_cm4 -D__REDLIB__ -I"C:\Users\fabia\SynologyDrive\Dokumente\HSLU\Semester\6\MICRO\mcux\workspace\hello world\board" -I"C:\Users\fabia\SynologyDrive\Dokumente\HSLU\Semester\6\MICRO\mcux\workspace\hello world\source" -I"C:\Users\fabia\SynologyDrive\Dokumente\HSLU\Semester\6\MICRO\mcux\workspace\hello world" -I"C:\Users\fabia\SynologyDrive\Dokumente\HSLU\Semester\6\MICRO\mcux\workspace\hello world\drivers" -I"C:\Users\fabia\SynologyDrive\Dokumente\HSLU\Semester\6\MICRO\mcux\workspace\hello world\device" -I"C:\Users\fabia\SynologyDrive\Dokumente\HSLU\Semester\6\MICRO\mcux\workspace\hello world\CMSIS" -O0 -fno-common -g3 -Wall -c -ffunction-sections -fdata-sections -ffreestanding -fno-builtin -fmerge-constants -fmacro-prefix-map="../source ./"=. -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -D__REDLIB__ -fstack-usage -specs=redlib.specs -MMD -MP -MF"source/hello world.d" -MT"source/hello\ world.d" -o "source/hello world.o" "../source/hello world.c"
+Finished building: ../source/hello world.c
+ 
+Building target: hello world.axf
+Invoking: MCU Linker
+arm-none-eabi-gcc -nostdlib -Xlinker -Map="hello world.map" -Xlinker --gc-sections -Xlinker -print-memory-usage -Xlinker --sort-section=alignment -Xlinker --cref -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -T hello_world_Debug.ld -o "hello world.axf"  ./startup/startup_mk22f51212.o  ./source/hello\ world.o ./source/semihost_hardfault.o  ./drivers/fsl_clock.o ./drivers/fsl_common.o ./drivers/fsl_gpio.o  ./device/system_MK22F51212.o  ./board/board.o ./board/clock_config.o ./board/peripherals.o ./board/pin_mux.o   
+Memory region         Used Size  Region Size  %age Used
+   PROGRAM_FLASH:        6168 B       512 KB      1.18%
+      SRAM_UPPER:        8388 B        64 KB     12.80%
+      SRAM_LOWER:          0 GB        64 KB      0.00%
+Finished building target: hello world.axf
+ 
+make --no-print-directory post-build
+Performing post-build steps
+arm-none-eabi-size "hello world.axf"; # arm-none-eabi-objcopy -v -O binary "hello world.axf" "hello world.bin" ; # checksum -p MK22FN512xxx12 -d "hello world.bin";
+   text	   data	    bss	    dec	    hex	filename
+   6164	      4	   8384	  14552	   38d8	hello world.axf
+ 
+16:33:24 **** Incremental Build of configuration Debug for project hello world ****
+make -r -j4 all 
+make: Nothing to be done for 'all'.
+16:35:25 **** Incremental Build of configuration Debug for project hello world ****
+make -r -j4 all 
+Building file: ../source/hello world.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -DCPU_MK22FN512VLL12 -DCPU_MK22FN512VLL12_cm4 -D__REDLIB__ -I"C:\Users\fabia\SynologyDrive\Dokumente\HSLU\Semester\6\MICRO\mcux\workspace\hello world\board" -I"C:\Users\fabia\SynologyDrive\Dokumente\HSLU\Semester\6\MICRO\mcux\workspace\hello world\source" -I"C:\Users\fabia\SynologyDrive\Dokumente\HSLU\Semester\6\MICRO\mcux\workspace\hello world" -I"C:\Users\fabia\SynologyDrive\Dokumente\HSLU\Semester\6\MICRO\mcux\workspace\hello world\drivers" -I"C:\Users\fabia\SynologyDrive\Dokumente\HSLU\Semester\6\MICRO\mcux\workspace\hello world\device" -I"C:\Users\fabia\SynologyDrive\Dokumente\HSLU\Semester\6\MICRO\mcux\workspace\hello world\CMSIS" -O0 -fno-common -g3 -Wall -c -ffunction-sections -fdata-sections -ffreestanding -fno-builtin -fmerge-constants -fmacro-prefix-map="../source ./"=. -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -D__REDLIB__ -fstack-usage -specs=redlib.specs -MMD -MP -MF"source/hello world.d" -MT"source/hello\ world.d" -o "source/hello world.o" "../source/hello world.c"
+Finished building: ../source/hello world.c
+ 
+Building target: hello world.axf
+Invoking: MCU Linker
+arm-none-eabi-gcc -nostdlib -Xlinker -Map="hello world.map" -Xlinker --gc-sections -Xlinker -print-memory-usage -Xlinker --sort-section=alignment -Xlinker --cref -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -T hello_world_Debug.ld -o "hello world.axf"  ./startup/startup_mk22f51212.o  ./source/hello\ world.o ./source/semihost_hardfault.o  ./drivers/fsl_clock.o ./drivers/fsl_common.o ./drivers/fsl_gpio.o  ./device/system_MK22F51212.o  ./board/board.o ./board/clock_config.o ./board/peripherals.o ./board/pin_mux.o   
+Memory region         Used Size  Region Size  %age Used
+   PROGRAM_FLASH:        6168 B       512 KB      1.18%
+      SRAM_UPPER:        8388 B        64 KB     12.80%
+      SRAM_LOWER:          0 GB        64 KB      0.00%
+Finished building target: hello world.axf
+ 
+make --no-print-directory post-build
+Performing post-build steps
+arm-none-eabi-size "hello world.axf"; # arm-none-eabi-objcopy -v -O binary "hello world.axf" "hello world.bin" ; # checksum -p MK22FN512xxx12 -d "hello world.bin";
+   text	   data	    bss	    dec	    hex	filename
+   6164	      4	   8384	  14552	   38d8	hello world.axf
+ 
+16:36:06 **** Incremental Build of configuration Debug for project hello world ****
+make -r -j4 all 
+Building file: ../source/hello world.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -DCPU_MK22FN512VLL12 -DCPU_MK22FN512VLL12_cm4 -D__REDLIB__ -I"C:\Users\fabia\SynologyDrive\Dokumente\HSLU\Semester\6\MICRO\mcux\workspace\hello world\board" -I"C:\Users\fabia\SynologyDrive\Dokumente\HSLU\Semester\6\MICRO\mcux\workspace\hello world\source" -I"C:\Users\fabia\SynologyDrive\Dokumente\HSLU\Semester\6\MICRO\mcux\workspace\hello world" -I"C:\Users\fabia\SynologyDrive\Dokumente\HSLU\Semester\6\MICRO\mcux\workspace\hello world\drivers" -I"C:\Users\fabia\SynologyDrive\Dokumente\HSLU\Semester\6\MICRO\mcux\workspace\hello world\device" -I"C:\Users\fabia\SynologyDrive\Dokumente\HSLU\Semester\6\MICRO\mcux\workspace\hello world\CMSIS" -O0 -fno-common -g3 -Wall -c -ffunction-sections -fdata-sections -ffreestanding -fno-builtin -fmerge-constants -fmacro-prefix-map="../source ./"=. -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -D__REDLIB__ -fstack-usage -specs=redlib.specs -MMD -MP -MF"source/hello world.d" -MT"source/hello\ world.d" -o "source/hello world.o" "../source/hello world.c"
+Finished building: ../source/hello world.c
+ 
+Building target: hello world.axf
+Invoking: MCU Linker
+arm-none-eabi-gcc -nostdlib -Xlinker -Map="hello world.map" -Xlinker --gc-sections -Xlinker -print-memory-usage -Xlinker --sort-section=alignment -Xlinker --cref -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -T hello_world_Debug.ld -o "hello world.axf"  ./startup/startup_mk22f51212.o  ./source/hello\ world.o ./source/semihost_hardfault.o  ./drivers/fsl_clock.o ./drivers/fsl_common.o ./drivers/fsl_gpio.o  ./device/system_MK22F51212.o  ./board/board.o ./board/clock_config.o ./board/peripherals.o ./board/pin_mux.o   
+Memory region         Used Size  Region Size  %age Used
+   PROGRAM_FLASH:        6192 B       512 KB      1.18%
+      SRAM_UPPER:        8388 B        64 KB     12.80%
+      SRAM_LOWER:          0 GB        64 KB      0.00%
+Finished building target: hello world.axf
+ 
+make --no-print-directory post-build
+Performing post-build steps
+arm-none-eabi-size "hello world.axf"; # arm-none-eabi-objcopy -v -O binary "hello world.axf" "hello world.bin" ; # checksum -p MK22FN512xxx12 -d "hello world.bin";
+   text	   data	    bss	    dec	    hex	filename
+   6188	      4	   8384	  14576	   38f0	hello world.axf
+ 
+16:36:53 **** Incremental Build of configuration Debug for project hello world ****
+make -r -j4 all 
+Building file: ../source/hello world.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -DCPU_MK22FN512VLL12 -DCPU_MK22FN512VLL12_cm4 -D__REDLIB__ -I"C:\Users\fabia\SynologyDrive\Dokumente\HSLU\Semester\6\MICRO\mcux\workspace\hello world\board" -I"C:\Users\fabia\SynologyDrive\Dokumente\HSLU\Semester\6\MICRO\mcux\workspace\hello world\source" -I"C:\Users\fabia\SynologyDrive\Dokumente\HSLU\Semester\6\MICRO\mcux\workspace\hello world" -I"C:\Users\fabia\SynologyDrive\Dokumente\HSLU\Semester\6\MICRO\mcux\workspace\hello world\drivers" -I"C:\Users\fabia\SynologyDrive\Dokumente\HSLU\Semester\6\MICRO\mcux\workspace\hello world\device" -I"C:\Users\fabia\SynologyDrive\Dokumente\HSLU\Semester\6\MICRO\mcux\workspace\hello world\CMSIS" -O0 -fno-common -g3 -Wall -c -ffunction-sections -fdata-sections -ffreestanding -fno-builtin -fmerge-constants -fmacro-prefix-map="../source ./"=. -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -D__REDLIB__ -fstack-usage -specs=redlib.specs -MMD -MP -MF"source/hello world.d" -MT"source/hello\ world.d" -o "source/hello world.o" "../source/hello world.c"
+Finished building: ../source/hello world.c
+ 
+Building target: hello world.axf
+Invoking: MCU Linker
+arm-none-eabi-gcc -nostdlib -Xlinker -Map="hello world.map" -Xlinker --gc-sections -Xlinker -print-memory-usage -Xlinker --sort-section=alignment -Xlinker --cref -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -T hello_world_Debug.ld -o "hello world.axf"  ./startup/startup_mk22f51212.o  ./source/hello\ world.o ./source/semihost_hardfault.o  ./drivers/fsl_clock.o ./drivers/fsl_common.o ./drivers/fsl_gpio.o  ./device/system_MK22F51212.o  ./board/board.o ./board/clock_config.o ./board/peripherals.o ./board/pin_mux.o   
+Memory region         Used Size  Region Size  %age Used
+   PROGRAM_FLASH:        6192 B       512 KB      1.18%
+      SRAM_UPPER:        8388 B        64 KB     12.80%
+      SRAM_LOWER:          0 GB        64 KB      0.00%
+Finished building target: hello world.axf
+ 
+make --no-print-directory post-build
+Performing post-build steps
+arm-none-eabi-size "hello world.axf"; # arm-none-eabi-objcopy -v -O binary "hello world.axf" "hello world.bin" ; # checksum -p MK22FN512xxx12 -d "hello world.bin";
+   text	   data	    bss	    dec	    hex	filename
+   6188	      4	   8384	  14576	   38f0	hello world.axf
+ 
+16:49:42 **** Incremental Build of configuration Debug for project hello world ****
+make -r -j4 all 
+Building file: ../source/hello world.c
+Building file: ../source/led.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -DCPU_MK22FN512VLL12 -DCPU_MK22FN512VLL12_cm4 -D__REDLIB__ -I"C:\Users\fabia\SynologyDrive\Dokumente\HSLU\Semester\6\MICRO\mcux\workspace\hello world\board" -I"C:\Users\fabia\SynologyDrive\Dokumente\HSLU\Semester\6\MICRO\mcux\workspace\hello world\source" -I"C:\Users\fabia\SynologyDrive\Dokumente\HSLU\Semester\6\MICRO\mcux\workspace\hello world" -I"C:\Users\fabia\SynologyDrive\Dokumente\HSLU\Semester\6\MICRO\mcux\workspace\hello world\drivers" -I"C:\Users\fabia\SynologyDrive\Dokumente\HSLU\Semester\6\MICRO\mcux\workspace\hello world\device" -I"C:\Users\fabia\SynologyDrive\Dokumente\HSLU\Semester\6\MICRO\mcux\workspace\hello world\CMSIS" -O0 -fno-common -g3 -Wall -c -ffunction-sections -fdata-sections -ffreestanding -fno-builtin -fmerge-constants -fmacro-prefix-map="../source ./"=. -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -D__REDLIB__ -fstack-usage -specs=redlib.specs -MMD -MP -MF"source/hello world.d" -MT"source/hello\ world.d" -o "source/hello world.o" "../source/hello world.c"
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -DCPU_MK22FN512VLL12 -DCPU_MK22FN512VLL12_cm4 -D__REDLIB__ -I"C:\Users\fabia\SynologyDrive\Dokumente\HSLU\Semester\6\MICRO\mcux\workspace\hello world\board" -I"C:\Users\fabia\SynologyDrive\Dokumente\HSLU\Semester\6\MICRO\mcux\workspace\hello world\source" -I"C:\Users\fabia\SynologyDrive\Dokumente\HSLU\Semester\6\MICRO\mcux\workspace\hello world" -I"C:\Users\fabia\SynologyDrive\Dokumente\HSLU\Semester\6\MICRO\mcux\workspace\hello world\drivers" -I"C:\Users\fabia\SynologyDrive\Dokumente\HSLU\Semester\6\MICRO\mcux\workspace\hello world\device" -I"C:\Users\fabia\SynologyDrive\Dokumente\HSLU\Semester\6\MICRO\mcux\workspace\hello world\CMSIS" -O0 -fno-common -g3 -Wall -c -ffunction-sections -fdata-sections -ffreestanding -fno-builtin -fmerge-constants -fmacro-prefix-map="../source/"=. -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -D__REDLIB__ -fstack-usage -specs=redlib.specs -MMD -MP -MF"source/led.d" -MT"source/led.o" -MT"source/led.d" -o "source/led.o" "../source/led.c"
+Finished building: ../source/led.c
+Finished building: ../source/hello world.c
+ 
+ 
+Building target: hello world.axf
+Invoking: MCU Linker
+arm-none-eabi-gcc -nostdlib -Xlinker -Map="hello world.map" -Xlinker --gc-sections -Xlinker -print-memory-usage -Xlinker --sort-section=alignment -Xlinker --cref -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -T hello_world_Debug.ld -o "hello world.axf"  ./startup/startup_mk22f51212.o  ./source/hello\ world.o ./source/led.o ./source/semihost_hardfault.o  ./drivers/fsl_clock.o ./drivers/fsl_common.o ./drivers/fsl_gpio.o  ./device/system_MK22F51212.o  ./board/board.o ./board/clock_config.o ./board/peripherals.o ./board/pin_mux.o   
+Memory region         Used Size  Region Size  %age Used
+   PROGRAM_FLASH:        6192 B       512 KB      1.18%
+      SRAM_UPPER:        8388 B        64 KB     12.80%
+      SRAM_LOWER:          0 GB        64 KB      0.00%
+Finished building target: hello world.axf
+ 
+make --no-print-directory post-build
+Performing post-build steps
+arm-none-eabi-size "hello world.axf"; # arm-none-eabi-objcopy -v -O binary "hello world.axf" "hello world.bin" ; # checksum -p MK22FN512xxx12 -d "hello world.bin";
+   text	   data	    bss	    dec	    hex	filename
+   6188	      4	   8384	  14576	   38f0	hello world.axf
+ 
+16:50:32 **** Incremental Build of configuration Debug for project hello world ****
+make -r -j4 all 
+Building file: ../source/hello world.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -DCPU_MK22FN512VLL12 -DCPU_MK22FN512VLL12_cm4 -D__REDLIB__ -I"C:\Users\fabia\SynologyDrive\Dokumente\HSLU\Semester\6\MICRO\mcux\workspace\hello world\board" -I"C:\Users\fabia\SynologyDrive\Dokumente\HSLU\Semester\6\MICRO\mcux\workspace\hello world\source" -I"C:\Users\fabia\SynologyDrive\Dokumente\HSLU\Semester\6\MICRO\mcux\workspace\hello world" -I"C:\Users\fabia\SynologyDrive\Dokumente\HSLU\Semester\6\MICRO\mcux\workspace\hello world\drivers" -I"C:\Users\fabia\SynologyDrive\Dokumente\HSLU\Semester\6\MICRO\mcux\workspace\hello world\device" -I"C:\Users\fabia\SynologyDrive\Dokumente\HSLU\Semester\6\MICRO\mcux\workspace\hello world\CMSIS" -O0 -fno-common -g3 -Wall -c -ffunction-sections -fdata-sections -ffreestanding -fno-builtin -fmerge-constants -fmacro-prefix-map="../source ./"=. -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -D__REDLIB__ -fstack-usage -specs=redlib.specs -MMD -MP -MF"source/hello world.d" -MT"source/hello\ world.d" -o "source/hello world.o" "../source/hello world.c"
+Finished building: ../source/hello world.c
+ 
+Building target: hello world.axf
+Invoking: MCU Linker
+arm-none-eabi-gcc -nostdlib -Xlinker -Map="hello world.map" -Xlinker --gc-sections -Xlinker -print-memory-usage -Xlinker --sort-section=alignment -Xlinker --cref -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -T hello_world_Debug.ld -o "hello world.axf"  ./startup/startup_mk22f51212.o  ./source/hello\ world.o ./source/led.o ./source/semihost_hardfault.o  ./drivers/fsl_clock.o ./drivers/fsl_common.o ./drivers/fsl_gpio.o  ./device/system_MK22F51212.o  ./board/board.o ./board/clock_config.o ./board/peripherals.o ./board/pin_mux.o   
+Memory region         Used Size  Region Size  %age Used
+   PROGRAM_FLASH:        6352 B       512 KB      1.21%
+      SRAM_UPPER:        8388 B        64 KB     12.80%
+      SRAM_LOWER:          0 GB        64 KB      0.00%
+Finished building target: hello world.axf
+ 
+make --no-print-directory post-build
+Performing post-build steps
+arm-none-eabi-size "hello world.axf"; # arm-none-eabi-objcopy -v -O binary "hello world.axf" "hello world.bin" ; # checksum -p MK22FN512xxx12 -d "hello world.bin";
+   text	   data	    bss	    dec	    hex	filename
+   6348	      4	   8384	  14736	   3990	hello world.axf
+ 
+16:51:09 **** Incremental Build of configuration Debug for project hello world ****
+make -r -j4 all 
+make: Nothing to be done for 'all'.
+17:02:09 **** Incremental Build of configuration Debug for project hello world ****
+make -r -j4 all 
+make: Nothing to be done for 'all'.
+17:04:02 **** Incremental Build of configuration Debug for project hello world ****
+make -r -j4 all 
+Building file: ../source/led.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -DCPU_MK22FN512VLL12 -DCPU_MK22FN512VLL12_cm4 -D__REDLIB__ -I"C:\Users\fabia\SynologyDrive\Dokumente\HSLU\Semester\6\MICRO\mcux\workspace\hello world\board" -I"C:\Users\fabia\SynologyDrive\Dokumente\HSLU\Semester\6\MICRO\mcux\workspace\hello world\source" -I"C:\Users\fabia\SynologyDrive\Dokumente\HSLU\Semester\6\MICRO\mcux\workspace\hello world" -I"C:\Users\fabia\SynologyDrive\Dokumente\HSLU\Semester\6\MICRO\mcux\workspace\hello world\drivers" -I"C:\Users\fabia\SynologyDrive\Dokumente\HSLU\Semester\6\MICRO\mcux\workspace\hello world\device" -I"C:\Users\fabia\SynologyDrive\Dokumente\HSLU\Semester\6\MICRO\mcux\workspace\hello world\CMSIS" -O0 -fno-common -g3 -Wall -c -ffunction-sections -fdata-sections -ffreestanding -fno-builtin -fmerge-constants -fmacro-prefix-map="../source/"=. -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -D__REDLIB__ -fstack-usage -specs=redlib.specs -MMD -MP -MF"source/led.d" -MT"source/led.o" -MT"source/led.d" -o "source/led.o" "../source/led.c"
+Finished building: ../source/led.c
+ 
+Building target: hello world.axf
+Invoking: MCU Linker
+arm-none-eabi-gcc -nostdlib -Xlinker -Map="hello world.map" -Xlinker --gc-sections -Xlinker -print-memory-usage -Xlinker --sort-section=alignment -Xlinker --cref -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -T hello_world_Debug.ld -o "hello world.axf"  ./startup/startup_mk22f51212.o  ./source/hello\ world.o ./source/led.o ./source/semihost_hardfault.o  ./drivers/fsl_clock.o ./drivers/fsl_common.o ./drivers/fsl_gpio.o  ./device/system_MK22F51212.o  ./board/board.o ./board/clock_config.o ./board/peripherals.o ./board/pin_mux.o   
+Memory region         Used Size  Region Size  %age Used
+   PROGRAM_FLASH:        6352 B       512 KB      1.21%
+      SRAM_UPPER:        8388 B        64 KB     12.80%
+      SRAM_LOWER:          0 GB        64 KB      0.00%
+Finished building target: hello world.axf
+ 
+make --no-print-directory post-build
+Performing post-build steps
+arm-none-eabi-size "hello world.axf"; # arm-none-eabi-objcopy -v -O binary "hello world.axf" "hello world.bin" ; # checksum -p MK22FN512xxx12 -d "hello world.bin";
+   text	   data	    bss	    dec	    hex	filename
+   6348	      4	   8384	  14736	   3990	hello world.axf
+ 
+17:05:07 **** Incremental Build of configuration Debug for project hello world ****
+make -r -j4 all 
+Building file: ../source/led.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -DCPU_MK22FN512VLL12 -DCPU_MK22FN512VLL12_cm4 -D__REDLIB__ -I"C:\Users\fabia\SynologyDrive\Dokumente\HSLU\Semester\6\MICRO\mcux\workspace\hello world\board" -I"C:\Users\fabia\SynologyDrive\Dokumente\HSLU\Semester\6\MICRO\mcux\workspace\hello world\source" -I"C:\Users\fabia\SynologyDrive\Dokumente\HSLU\Semester\6\MICRO\mcux\workspace\hello world" -I"C:\Users\fabia\SynologyDrive\Dokumente\HSLU\Semester\6\MICRO\mcux\workspace\hello world\drivers" -I"C:\Users\fabia\SynologyDrive\Dokumente\HSLU\Semester\6\MICRO\mcux\workspace\hello world\device" -I"C:\Users\fabia\SynologyDrive\Dokumente\HSLU\Semester\6\MICRO\mcux\workspace\hello world\CMSIS" -O0 -fno-common -g3 -Wall -c -ffunction-sections -fdata-sections -ffreestanding -fno-builtin -fmerge-constants -fmacro-prefix-map="../source/"=. -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -D__REDLIB__ -fstack-usage -specs=redlib.specs -MMD -MP -MF"source/led.d" -MT"source/led.o" -MT"source/led.d" -o "source/led.o" "../source/led.c"
+Finished building: ../source/led.c
+ 
+Building target: hello world.axf
+Invoking: MCU Linker
+arm-none-eabi-gcc -nostdlib -Xlinker -Map="hello world.map" -Xlinker --gc-sections -Xlinker -print-memory-usage -Xlinker --sort-section=alignment -Xlinker --cref -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -T hello_world_Debug.ld -o "hello world.axf"  ./startup/startup_mk22f51212.o  ./source/hello\ world.o ./source/led.o ./source/semihost_hardfault.o  ./drivers/fsl_clock.o ./drivers/fsl_common.o ./drivers/fsl_gpio.o  ./device/system_MK22F51212.o  ./board/board.o ./board/clock_config.o ./board/peripherals.o ./board/pin_mux.o   
+Memory region         Used Size  Region Size  %age Used
+   PROGRAM_FLASH:        6352 B       512 KB      1.21%
+      SRAM_UPPER:        8388 B        64 KB     12.80%
+      SRAM_LOWER:          0 GB        64 KB      0.00%
+Finished building target: hello world.axf
+ 
+make --no-print-directory post-build
+Performing post-build steps
+arm-none-eabi-size "hello world.axf"; # arm-none-eabi-objcopy -v -O binary "hello world.axf" "hello world.bin" ; # checksum -p MK22FN512xxx12 -d "hello world.bin";
+   text	   data	    bss	    dec	    hex	filename
+   6348	      4	   8384	  14736	   3990	hello world.axf
+ 
+17:05:57 **** Incremental Build of configuration Debug for project hello world ****
+make -r -j4 all 
+Building file: ../source/led.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -DCPU_MK22FN512VLL12 -DCPU_MK22FN512VLL12_cm4 -D__REDLIB__ -I"C:\Users\fabia\SynologyDrive\Dokumente\HSLU\Semester\6\MICRO\mcux\workspace\hello world\board" -I"C:\Users\fabia\SynologyDrive\Dokumente\HSLU\Semester\6\MICRO\mcux\workspace\hello world\source" -I"C:\Users\fabia\SynologyDrive\Dokumente\HSLU\Semester\6\MICRO\mcux\workspace\hello world" -I"C:\Users\fabia\SynologyDrive\Dokumente\HSLU\Semester\6\MICRO\mcux\workspace\hello world\drivers" -I"C:\Users\fabia\SynologyDrive\Dokumente\HSLU\Semester\6\MICRO\mcux\workspace\hello world\device" -I"C:\Users\fabia\SynologyDrive\Dokumente\HSLU\Semester\6\MICRO\mcux\workspace\hello world\CMSIS" -O0 -fno-common -g3 -Wall -c -ffunction-sections -fdata-sections -ffreestanding -fno-builtin -fmerge-constants -fmacro-prefix-map="../source/"=. -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -D__REDLIB__ -fstack-usage -specs=redlib.specs -MMD -MP -MF"source/led.d" -MT"source/led.o" -MT"source/led.d" -o "source/led.o" "../source/led.c"
+Finished building: ../source/led.c
+ 
+Building target: hello world.axf
+Invoking: MCU Linker
+arm-none-eabi-gcc -nostdlib -Xlinker -Map="hello world.map" -Xlinker --gc-sections -Xlinker -print-memory-usage -Xlinker --sort-section=alignment -Xlinker --cref -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -T hello_world_Debug.ld -o "hello world.axf"  ./startup/startup_mk22f51212.o  ./source/hello\ world.o ./source/led.o ./source/semihost_hardfault.o  ./drivers/fsl_clock.o ./drivers/fsl_common.o ./drivers/fsl_gpio.o  ./device/system_MK22F51212.o  ./board/board.o ./board/clock_config.o ./board/peripherals.o ./board/pin_mux.o   
+Memory region         Used Size  Region Size  %age Used
+   PROGRAM_FLASH:        6352 B       512 KB      1.21%
+      SRAM_UPPER:        8388 B        64 KB     12.80%
+      SRAM_LOWER:          0 GB        64 KB      0.00%
+Finished building target: hello world.axf
+ 
+make --no-print-directory post-build
+Performing post-build steps
+arm-none-eabi-size "hello world.axf"; # arm-none-eabi-objcopy -v -O binary "hello world.axf" "hello world.bin" ; # checksum -p MK22FN512xxx12 -d "hello world.bin";
+   text	   data	    bss	    dec	    hex	filename
+   6348	      4	   8384	  14736	   3990	hello world.axf
+ 
+17:12:18 **** Incremental Build of configuration Debug for project hello world ****
+make -r -j4 all 
+Building file: ../source/hello world.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -DCPU_MK22FN512VLL12 -DCPU_MK22FN512VLL12_cm4 -D__REDLIB__ -I"C:\Users\fabia\SynologyDrive\Dokumente\HSLU\Semester\6\MICRO\mcux\workspace\hello world\board" -I"C:\Users\fabia\SynologyDrive\Dokumente\HSLU\Semester\6\MICRO\mcux\workspace\hello world\source" -I"C:\Users\fabia\SynologyDrive\Dokumente\HSLU\Semester\6\MICRO\mcux\workspace\hello world" -I"C:\Users\fabia\SynologyDrive\Dokumente\HSLU\Semester\6\MICRO\mcux\workspace\hello world\drivers" -I"C:\Users\fabia\SynologyDrive\Dokumente\HSLU\Semester\6\MICRO\mcux\workspace\hello world\device" -I"C:\Users\fabia\SynologyDrive\Dokumente\HSLU\Semester\6\MICRO\mcux\workspace\hello world\CMSIS" -O0 -fno-common -g3 -Wall -c -ffunction-sections -fdata-sections -ffreestanding -fno-builtin -fmerge-constants -fmacro-prefix-map="../source ./"=. -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -D__REDLIB__ -fstack-usage -specs=redlib.specs -MMD -MP -MF"source/hello world.d" -MT"source/hello\ world.d" -o "source/hello world.o" "../source/hello world.c"
+Finished building: ../source/hello world.c
+ 
+Building target: hello world.axf
+Invoking: MCU Linker
+arm-none-eabi-gcc -nostdlib -Xlinker -Map="hello world.map" -Xlinker --gc-sections -Xlinker -print-memory-usage -Xlinker --sort-section=alignment -Xlinker --cref -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -T hello_world_Debug.ld -o "hello world.axf"  ./startup/startup_mk22f51212.o  ./source/hello\ world.o ./source/led.o ./source/semihost_hardfault.o  ./drivers/fsl_clock.o ./drivers/fsl_common.o ./drivers/fsl_gpio.o  ./device/system_MK22F51212.o  ./board/board.o ./board/clock_config.o ./board/peripherals.o ./board/pin_mux.o   
+Memory region         Used Size  Region Size  %age Used
+   PROGRAM_FLASH:        6416 B       512 KB      1.22%
+      SRAM_UPPER:        8388 B        64 KB     12.80%
+      SRAM_LOWER:          0 GB        64 KB      0.00%
+Finished building target: hello world.axf
+ 
+make --no-print-directory post-build
+Performing post-build steps
+arm-none-eabi-size "hello world.axf"; # arm-none-eabi-objcopy -v -O binary "hello world.axf" "hello world.bin" ; # checksum -p MK22FN512xxx12 -d "hello world.bin";
+   text	   data	    bss	    dec	    hex	filename
+   6412	      4	   8384	  14800	   39d0	hello world.axf
+ 
+17:27:35 **** Incremental Build of configuration Debug for project hello world ****
+make -r -j4 all 
+Building file: ../source/hello world.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -DCPU_MK22FN512VLL12 -DCPU_MK22FN512VLL12_cm4 -D__REDLIB__ -I"C:\Users\fabia\SynologyDrive\Dokumente\HSLU\Semester\6\MICRO\mcux\workspace\hello world\board" -I"C:\Users\fabia\SynologyDrive\Dokumente\HSLU\Semester\6\MICRO\mcux\workspace\hello world\source" -I"C:\Users\fabia\SynologyDrive\Dokumente\HSLU\Semester\6\MICRO\mcux\workspace\hello world" -I"C:\Users\fabia\SynologyDrive\Dokumente\HSLU\Semester\6\MICRO\mcux\workspace\hello world\drivers" -I"C:\Users\fabia\SynologyDrive\Dokumente\HSLU\Semester\6\MICRO\mcux\workspace\hello world\device" -I"C:\Users\fabia\SynologyDrive\Dokumente\HSLU\Semester\6\MICRO\mcux\workspace\hello world\CMSIS" -O0 -fno-common -g3 -Wall -c -ffunction-sections -fdata-sections -ffreestanding -fno-builtin -fmerge-constants -fmacro-prefix-map="../source ./"=. -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -D__REDLIB__ -fstack-usage -specs=redlib.specs -MMD -MP -MF"source/hello world.d" -MT"source/hello\ world.d" -o "source/hello world.o" "../source/hello world.c"
+Finished building: ../source/hello world.c
+ 
+Building target: hello world.axf
+Invoking: MCU Linker
+arm-none-eabi-gcc -nostdlib -Xlinker -Map="hello world.map" -Xlinker --gc-sections -Xlinker -print-memory-usage -Xlinker --sort-section=alignment -Xlinker --cref -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -T hello_world_Debug.ld -o "hello world.axf"  ./startup/startup_mk22f51212.o  ./source/hello\ world.o ./source/led.o ./source/semihost_hardfault.o  ./drivers/fsl_clock.o ./drivers/fsl_common.o ./drivers/fsl_gpio.o  ./device/system_MK22F51212.o  ./board/board.o ./board/clock_config.o ./board/peripherals.o ./board/pin_mux.o   
+Memory region         Used Size  Region Size  %age Used
+   PROGRAM_FLASH:        6620 B       512 KB      1.26%
+      SRAM_UPPER:        8388 B        64 KB     12.80%
+      SRAM_LOWER:          0 GB        64 KB      0.00%
+Finished building target: hello world.axf
+ 
+make --no-print-directory post-build
+Performing post-build steps
+arm-none-eabi-size "hello world.axf"; # arm-none-eabi-objcopy -v -O binary "hello world.axf" "hello world.bin" ; # checksum -p MK22FN512xxx12 -d "hello world.bin";
+   text	   data	    bss	    dec	    hex	filename
+   6616	      4	   8384	  15004	   3a9c	hello world.axf
+ 
+17:28:22 **** Incremental Build of configuration Debug for project hello world ****
+make -r -j4 all 
+make: Nothing to be done for 'all'.
+17:31:15 **** Incremental Build of configuration Debug for project hello world ****
+make -r -j4 all 
+Building file: ../source/hello world.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -DCPU_MK22FN512VLL12 -DCPU_MK22FN512VLL12_cm4 -D__REDLIB__ -I"C:\Users\fabia\SynologyDrive\Dokumente\HSLU\Semester\6\MICRO\mcux\workspace\hello world\board" -I"C:\Users\fabia\SynologyDrive\Dokumente\HSLU\Semester\6\MICRO\mcux\workspace\hello world\source" -I"C:\Users\fabia\SynologyDrive\Dokumente\HSLU\Semester\6\MICRO\mcux\workspace\hello world" -I"C:\Users\fabia\SynologyDrive\Dokumente\HSLU\Semester\6\MICRO\mcux\workspace\hello world\drivers" -I"C:\Users\fabia\SynologyDrive\Dokumente\HSLU\Semester\6\MICRO\mcux\workspace\hello world\device" -I"C:\Users\fabia\SynologyDrive\Dokumente\HSLU\Semester\6\MICRO\mcux\workspace\hello world\CMSIS" -O0 -fno-common -g3 -Wall -c -ffunction-sections -fdata-sections -ffreestanding -fno-builtin -fmerge-constants -fmacro-prefix-map="../source ./"=. -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -D__REDLIB__ -fstack-usage -specs=redlib.specs -MMD -MP -MF"source/hello world.d" -MT"source/hello\ world.d" -o "source/hello world.o" "../source/hello world.c"
+Finished building: ../source/hello world.c
+ 
+Building target: hello world.axf
+Invoking: MCU Linker
+arm-none-eabi-gcc -nostdlib -Xlinker -Map="hello world.map" -Xlinker --gc-sections -Xlinker -print-memory-usage -Xlinker --sort-section=alignment -Xlinker --cref -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -T hello_world_Debug.ld -o "hello world.axf"  ./startup/startup_mk22f51212.o  ./source/hello\ world.o ./source/led.o ./source/semihost_hardfault.o  ./drivers/fsl_clock.o ./drivers/fsl_common.o ./drivers/fsl_gpio.o  ./device/system_MK22F51212.o  ./board/board.o ./board/clock_config.o ./board/peripherals.o ./board/pin_mux.o   
+Memory region         Used Size  Region Size  %age Used
+   PROGRAM_FLASH:        6620 B       512 KB      1.26%
+      SRAM_UPPER:        8388 B        64 KB     12.80%
+      SRAM_LOWER:          0 GB        64 KB      0.00%
+Finished building target: hello world.axf
+ 
+make --no-print-directory post-build
+Performing post-build steps
+arm-none-eabi-size "hello world.axf"; # arm-none-eabi-objcopy -v -O binary "hello world.axf" "hello world.bin" ; # checksum -p MK22FN512xxx12 -d "hello world.bin";
+   text	   data	    bss	    dec	    hex	filename
+   6616	      4	   8384	  15004	   3a9c	hello world.axf
+ 
+17:33:19 **** Incremental Build of configuration Debug for project hello world ****
+make -r -j4 all 
+Building file: ../source/hello world.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -DCPU_MK22FN512VLL12 -DCPU_MK22FN512VLL12_cm4 -D__REDLIB__ -I"C:\Users\fabia\SynologyDrive\Dokumente\HSLU\Semester\6\MICRO\mcux\workspace\hello world\board" -I"C:\Users\fabia\SynologyDrive\Dokumente\HSLU\Semester\6\MICRO\mcux\workspace\hello world\source" -I"C:\Users\fabia\SynologyDrive\Dokumente\HSLU\Semester\6\MICRO\mcux\workspace\hello world" -I"C:\Users\fabia\SynologyDrive\Dokumente\HSLU\Semester\6\MICRO\mcux\workspace\hello world\drivers" -I"C:\Users\fabia\SynologyDrive\Dokumente\HSLU\Semester\6\MICRO\mcux\workspace\hello world\device" -I"C:\Users\fabia\SynologyDrive\Dokumente\HSLU\Semester\6\MICRO\mcux\workspace\hello world\CMSIS" -O0 -fno-common -g3 -Wall -c -ffunction-sections -fdata-sections -ffreestanding -fno-builtin -fmerge-constants -fmacro-prefix-map="../source ./"=. -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -D__REDLIB__ -fstack-usage -specs=redlib.specs -MMD -MP -MF"source/hello world.d" -MT"source/hello\ world.d" -o "source/hello world.o" "../source/hello world.c"
+Finished building: ../source/hello world.c
+ 
+Building target: hello world.axf
+Invoking: MCU Linker
+arm-none-eabi-gcc -nostdlib -Xlinker -Map="hello world.map" -Xlinker --gc-sections -Xlinker -print-memory-usage -Xlinker --sort-section=alignment -Xlinker --cref -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -T hello_world_Debug.ld -o "hello world.axf"  ./startup/startup_mk22f51212.o  ./source/hello\ world.o ./source/led.o ./source/semihost_hardfault.o  ./drivers/fsl_clock.o ./drivers/fsl_common.o ./drivers/fsl_gpio.o  ./device/system_MK22F51212.o  ./board/board.o ./board/clock_config.o ./board/peripherals.o ./board/pin_mux.o   
+Memory region         Used Size  Region Size  %age Used
+   PROGRAM_FLASH:        6660 B       512 KB      1.27%
+      SRAM_UPPER:        8388 B        64 KB     12.80%
+      SRAM_LOWER:          0 GB        64 KB      0.00%
+Finished building target: hello world.axf
+ 
+make --no-print-directory post-build
+Performing post-build steps
+arm-none-eabi-size "hello world.axf"; # arm-none-eabi-objcopy -v -O binary "hello world.axf" "hello world.bin" ; # checksum -p MK22FN512xxx12 -d "hello world.bin";
+   text	   data	    bss	    dec	    hex	filename
+   6656	      4	   8384	  15044	   3ac4	hello world.axf
+ 
+17:38:49 **** Incremental Build of configuration Debug for project hello world ****
+make -r -j4 all 
+Building file: ../source/hello world.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -DCPU_MK22FN512VLL12 -DCPU_MK22FN512VLL12_cm4 -D__REDLIB__ -I"C:\Users\fabia\SynologyDrive\Dokumente\HSLU\Semester\6\MICRO\mcux\workspace\hello world\board" -I"C:\Users\fabia\SynologyDrive\Dokumente\HSLU\Semester\6\MICRO\mcux\workspace\hello world\source" -I"C:\Users\fabia\SynologyDrive\Dokumente\HSLU\Semester\6\MICRO\mcux\workspace\hello world" -I"C:\Users\fabia\SynologyDrive\Dokumente\HSLU\Semester\6\MICRO\mcux\workspace\hello world\drivers" -I"C:\Users\fabia\SynologyDrive\Dokumente\HSLU\Semester\6\MICRO\mcux\workspace\hello world\device" -I"C:\Users\fabia\SynologyDrive\Dokumente\HSLU\Semester\6\MICRO\mcux\workspace\hello world\CMSIS" -O0 -fno-common -g3 -Wall -c -ffunction-sections -fdata-sections -ffreestanding -fno-builtin -fmerge-constants -fmacro-prefix-map="../source ./"=. -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -D__REDLIB__ -fstack-usage -specs=redlib.specs -MMD -MP -MF"source/hello world.d" -MT"source/hello\ world.d" -o "source/hello world.o" "../source/hello world.c"
+Finished building: ../source/hello world.c
+ 
+Building target: hello world.axf
+Invoking: MCU Linker
+arm-none-eabi-gcc -nostdlib -Xlinker -Map="hello world.map" -Xlinker --gc-sections -Xlinker -print-memory-usage -Xlinker --sort-section=alignment -Xlinker --cref -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -T hello_world_Debug.ld -o "hello world.axf"  ./startup/startup_mk22f51212.o  ./source/hello\ world.o ./source/led.o ./source/semihost_hardfault.o  ./drivers/fsl_clock.o ./drivers/fsl_common.o ./drivers/fsl_gpio.o  ./device/system_MK22F51212.o  ./board/board.o ./board/clock_config.o ./board/peripherals.o ./board/pin_mux.o   
+Memory region         Used Size  Region Size  %age Used
+   PROGRAM_FLASH:        6780 B       512 KB      1.29%
+      SRAM_UPPER:        8388 B        64 KB     12.80%
+      SRAM_LOWER:          0 GB        64 KB      0.00%
+Finished building target: hello world.axf
+ 
+make --no-print-directory post-build
+Performing post-build steps
+arm-none-eabi-size "hello world.axf"; # arm-none-eabi-objcopy -v -O binary "hello world.axf" "hello world.bin" ; # checksum -p MK22FN512xxx12 -d "hello world.bin";
+   text	   data	    bss	    dec	    hex	filename
+   6776	      4	   8384	  15164	   3b3c	hello world.axf
+ 
+18:15:02 **** Incremental Build of configuration Debug for project hello world ****
+make -r -j4 all 
+Building file: ../source/hello world.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -DCPU_MK22FN512VLL12 -DCPU_MK22FN512VLL12_cm4 -D__REDLIB__ -I"C:\Users\fabia\SynologyDrive\Dokumente\HSLU\Semester\6\MICRO\mcux\workspace\hello world\board" -I"C:\Users\fabia\SynologyDrive\Dokumente\HSLU\Semester\6\MICRO\mcux\workspace\hello world\source" -I"C:\Users\fabia\SynologyDrive\Dokumente\HSLU\Semester\6\MICRO\mcux\workspace\hello world" -I"C:\Users\fabia\SynologyDrive\Dokumente\HSLU\Semester\6\MICRO\mcux\workspace\hello world\drivers" -I"C:\Users\fabia\SynologyDrive\Dokumente\HSLU\Semester\6\MICRO\mcux\workspace\hello world\device" -I"C:\Users\fabia\SynologyDrive\Dokumente\HSLU\Semester\6\MICRO\mcux\workspace\hello world\CMSIS" -O0 -fno-common -g3 -Wall -c -ffunction-sections -fdata-sections -ffreestanding -fno-builtin -fmerge-constants -fmacro-prefix-map="../source ./"=. -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -D__REDLIB__ -fstack-usage -specs=redlib.specs -MMD -MP -MF"source/hello world.d" -MT"source/hello\ world.d" -o "source/hello world.o" "../source/hello world.c"
+Finished building: ../source/hello world.c
+ 
+Building target: hello world.axf
+Invoking: MCU Linker
+arm-none-eabi-gcc -nostdlib -Xlinker -Map="hello world.map" -Xlinker --gc-sections -Xlinker -print-memory-usage -Xlinker --sort-section=alignment -Xlinker --cref -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -T hello_world_Debug.ld -o "hello world.axf"  ./startup/startup_mk22f51212.o  ./source/hello\ world.o ./source/led.o ./source/semihost_hardfault.o  ./drivers/fsl_clock.o ./drivers/fsl_common.o ./drivers/fsl_gpio.o  ./device/system_MK22F51212.o  ./board/board.o ./board/clock_config.o ./board/peripherals.o ./board/pin_mux.o   
+Memory region         Used Size  Region Size  %age Used
+   PROGRAM_FLASH:        6880 B       512 KB      1.31%
+      SRAM_UPPER:        8388 B        64 KB     12.80%
+      SRAM_LOWER:          0 GB        64 KB      0.00%
+Finished building target: hello world.axf
+ 
+make --no-print-directory post-build
+Performing post-build steps
+arm-none-eabi-size "hello world.axf"; # arm-none-eabi-objcopy -v -O binary "hello world.axf" "hello world.bin" ; # checksum -p MK22FN512xxx12 -d "hello world.bin";
+   text	   data	    bss	    dec	    hex	filename
+   6876	      4	   8384	  15264	   3ba0	hello world.axf
+ 
+18:17:45 **** Incremental Build of configuration Debug for project hello world ****
+make -r -j4 all 
+Building file: ../source/hello world.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -DCPU_MK22FN512VLL12 -DCPU_MK22FN512VLL12_cm4 -D__REDLIB__ -I"C:\Users\fabia\SynologyDrive\Dokumente\HSLU\Semester\6\MICRO\mcux\workspace\hello world\board" -I"C:\Users\fabia\SynologyDrive\Dokumente\HSLU\Semester\6\MICRO\mcux\workspace\hello world\source" -I"C:\Users\fabia\SynologyDrive\Dokumente\HSLU\Semester\6\MICRO\mcux\workspace\hello world" -I"C:\Users\fabia\SynologyDrive\Dokumente\HSLU\Semester\6\MICRO\mcux\workspace\hello world\drivers" -I"C:\Users\fabia\SynologyDrive\Dokumente\HSLU\Semester\6\MICRO\mcux\workspace\hello world\device" -I"C:\Users\fabia\SynologyDrive\Dokumente\HSLU\Semester\6\MICRO\mcux\workspace\hello world\CMSIS" -O0 -fno-common -g3 -Wall -c -ffunction-sections -fdata-sections -ffreestanding -fno-builtin -fmerge-constants -fmacro-prefix-map="../source ./"=. -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -D__REDLIB__ -fstack-usage -specs=redlib.specs -MMD -MP -MF"source/hello world.d" -MT"source/hello\ world.d" -o "source/hello world.o" "../source/hello world.c"
+Finished building: ../source/hello world.c
+ 
+Building target: hello world.axf
+Invoking: MCU Linker
+arm-none-eabi-gcc -nostdlib -Xlinker -Map="hello world.map" -Xlinker --gc-sections -Xlinker -print-memory-usage -Xlinker --sort-section=alignment -Xlinker --cref -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -T hello_world_Debug.ld -o "hello world.axf"  ./startup/startup_mk22f51212.o  ./source/hello\ world.o ./source/led.o ./source/semihost_hardfault.o  ./drivers/fsl_clock.o ./drivers/fsl_common.o ./drivers/fsl_gpio.o  ./device/system_MK22F51212.o  ./board/board.o ./board/clock_config.o ./board/peripherals.o ./board/pin_mux.o   
+Memory region         Used Size  Region Size  %age Used
+   PROGRAM_FLASH:        6880 B       512 KB      1.31%
+      SRAM_UPPER:        8388 B        64 KB     12.80%
+      SRAM_LOWER:          0 GB        64 KB      0.00%
+Finished building target: hello world.axf
+ 
+make --no-print-directory post-build
+Performing post-build steps
+arm-none-eabi-size "hello world.axf"; # arm-none-eabi-objcopy -v -O binary "hello world.axf" "hello world.bin" ; # checksum -p MK22FN512xxx12 -d "hello world.bin";
+   text	   data	    bss	    dec	    hex	filename
+   6876	      4	   8384	  15264	   3ba0	hello world.axf
+ 
+18:19:18 **** Incremental Build of configuration Debug for project hello world ****
+make -r -j4 all 
+make: Nothing to be done for 'all'.
+18:39:27 **** Incremental Build of configuration Debug for project hello world ****
+make -r -j4 all 
+Building file: ../source/hello world.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -DCPU_MK22FN512VLL12 -DCPU_MK22FN512VLL12_cm4 -D__REDLIB__ -I"C:\Users\fabia\SynologyDrive\Dokumente\HSLU\Semester\6\MICRO\mcux\workspace\hello world\board" -I"C:\Users\fabia\SynologyDrive\Dokumente\HSLU\Semester\6\MICRO\mcux\workspace\hello world\source" -I"C:\Users\fabia\SynologyDrive\Dokumente\HSLU\Semester\6\MICRO\mcux\workspace\hello world" -I"C:\Users\fabia\SynologyDrive\Dokumente\HSLU\Semester\6\MICRO\mcux\workspace\hello world\drivers" -I"C:\Users\fabia\SynologyDrive\Dokumente\HSLU\Semester\6\MICRO\mcux\workspace\hello world\device" -I"C:\Users\fabia\SynologyDrive\Dokumente\HSLU\Semester\6\MICRO\mcux\workspace\hello world\CMSIS" -O0 -fno-common -g3 -Wall -c -ffunction-sections -fdata-sections -ffreestanding -fno-builtin -fmerge-constants -fmacro-prefix-map="../source ./"=. -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -D__REDLIB__ -fstack-usage -specs=redlib.specs -MMD -MP -MF"source/hello world.d" -MT"source/hello\ world.d" -o "source/hello world.o" "../source/hello world.c"
+Finished building: ../source/hello world.c
+ 
+Building target: hello world.axf
+Invoking: MCU Linker
+arm-none-eabi-gcc -nostdlib -Xlinker -Map="hello world.map" -Xlinker --gc-sections -Xlinker -print-memory-usage -Xlinker --sort-section=alignment -Xlinker --cref -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -T hello_world_Debug.ld -o "hello world.axf"  ./startup/startup_mk22f51212.o  ./source/hello\ world.o ./source/led.o ./source/semihost_hardfault.o  ./drivers/fsl_clock.o ./drivers/fsl_common.o ./drivers/fsl_gpio.o  ./device/system_MK22F51212.o  ./board/board.o ./board/clock_config.o ./board/peripherals.o ./board/pin_mux.o   
+Memory region         Used Size  Region Size  %age Used
+   PROGRAM_FLASH:        6880 B       512 KB      1.31%
+      SRAM_UPPER:        8388 B        64 KB     12.80%
+      SRAM_LOWER:          0 GB        64 KB      0.00%
+Finished building target: hello world.axf
+ 
+make --no-print-directory post-build
+Performing post-build steps
+arm-none-eabi-size "hello world.axf"; # arm-none-eabi-objcopy -v -O binary "hello world.axf" "hello world.bin" ; # checksum -p MK22FN512xxx12 -d "hello world.bin";
+   text	   data	    bss	    dec	    hex	filename
+   6876	      4	   8384	  15264	   3ba0	hello world.axf
+ 
+18:53:57 **** Incremental Build of configuration Debug for project hello world ****
+make -r -j4 all 
+Building file: ../source/hello world.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -DCPU_MK22FN512VLL12 -DCPU_MK22FN512VLL12_cm4 -D__REDLIB__ -I"C:\Users\fabia\SynologyDrive\Dokumente\HSLU\Semester\6\MICRO\mcux\workspace\hello world\board" -I"C:\Users\fabia\SynologyDrive\Dokumente\HSLU\Semester\6\MICRO\mcux\workspace\hello world\source" -I"C:\Users\fabia\SynologyDrive\Dokumente\HSLU\Semester\6\MICRO\mcux\workspace\hello world" -I"C:\Users\fabia\SynologyDrive\Dokumente\HSLU\Semester\6\MICRO\mcux\workspace\hello world\drivers" -I"C:\Users\fabia\SynologyDrive\Dokumente\HSLU\Semester\6\MICRO\mcux\workspace\hello world\device" -I"C:\Users\fabia\SynologyDrive\Dokumente\HSLU\Semester\6\MICRO\mcux\workspace\hello world\CMSIS" -O0 -fno-common -g3 -Wall -c -ffunction-sections -fdata-sections -ffreestanding -fno-builtin -fmerge-constants -fmacro-prefix-map="../source ./"=. -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -D__REDLIB__ -fstack-usage -specs=redlib.specs -MMD -MP -MF"source/hello world.d" -MT"source/hello\ world.d" -o "source/hello world.o" "../source/hello world.c"
+Finished building: ../source/hello world.c
+ 
+Building target: hello world.axf
+Invoking: MCU Linker
+arm-none-eabi-gcc -nostdlib -Xlinker -Map="hello world.map" -Xlinker --gc-sections -Xlinker -print-memory-usage -Xlinker --sort-section=alignment -Xlinker --cref -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -T hello_world_Debug.ld -o "hello world.axf"  ./startup/startup_mk22f51212.o  ./source/hello\ world.o ./source/led.o ./source/semihost_hardfault.o  ./drivers/fsl_clock.o ./drivers/fsl_common.o ./drivers/fsl_gpio.o  ./device/system_MK22F51212.o  ./board/board.o ./board/clock_config.o ./board/peripherals.o ./board/pin_mux.o   
+Memory region         Used Size  Region Size  %age Used
+   PROGRAM_FLASH:        7116 B       512 KB      1.36%
+      SRAM_UPPER:        8388 B        64 KB     12.80%
+      SRAM_LOWER:          0 GB        64 KB      0.00%
+Finished building target: hello world.axf
+ 
+make --no-print-directory post-build
+Performing post-build steps
+arm-none-eabi-size "hello world.axf"; # arm-none-eabi-objcopy -v -O binary "hello world.axf" "hello world.bin" ; # checksum -p MK22FN512xxx12 -d "hello world.bin";
+   text	   data	    bss	    dec	    hex	filename
+   7112	      4	   8384	  15500	   3c8c	hello world.axf
+ 
+18:54:23 **** Incremental Build of configuration Debug for project hello world ****
+make -r -j4 all 
+Building file: ../source/hello world.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -DCPU_MK22FN512VLL12 -DCPU_MK22FN512VLL12_cm4 -D__REDLIB__ -I"C:\Users\fabia\SynologyDrive\Dokumente\HSLU\Semester\6\MICRO\mcux\workspace\hello world\board" -I"C:\Users\fabia\SynologyDrive\Dokumente\HSLU\Semester\6\MICRO\mcux\workspace\hello world\source" -I"C:\Users\fabia\SynologyDrive\Dokumente\HSLU\Semester\6\MICRO\mcux\workspace\hello world" -I"C:\Users\fabia\SynologyDrive\Dokumente\HSLU\Semester\6\MICRO\mcux\workspace\hello world\drivers" -I"C:\Users\fabia\SynologyDrive\Dokumente\HSLU\Semester\6\MICRO\mcux\workspace\hello world\device" -I"C:\Users\fabia\SynologyDrive\Dokumente\HSLU\Semester\6\MICRO\mcux\workspace\hello world\CMSIS" -O0 -fno-common -g3 -Wall -c -ffunction-sections -fdata-sections -ffreestanding -fno-builtin -fmerge-constants -fmacro-prefix-map="../source ./"=. -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -D__REDLIB__ -fstack-usage -specs=redlib.specs -MMD -MP -MF"source/hello world.d" -MT"source/hello\ world.d" -o "source/hello world.o" "../source/hello world.c"
+Finished building: ../source/hello world.c
+ 
+Building target: hello world.axf
+Invoking: MCU Linker
+arm-none-eabi-gcc -nostdlib -Xlinker -Map="hello world.map" -Xlinker --gc-sections -Xlinker -print-memory-usage -Xlinker --sort-section=alignment -Xlinker --cref -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -T hello_world_Debug.ld -o "hello world.axf"  ./startup/startup_mk22f51212.o  ./source/hello\ world.o ./source/led.o ./source/semihost_hardfault.o  ./drivers/fsl_clock.o ./drivers/fsl_common.o ./drivers/fsl_gpio.o  ./device/system_MK22F51212.o  ./board/board.o ./board/clock_config.o ./board/peripherals.o ./board/pin_mux.o   
+Memory region         Used Size  Region Size  %age Used
+   PROGRAM_FLASH:        7116 B       512 KB      1.36%
+      SRAM_UPPER:        8388 B        64 KB     12.80%
+      SRAM_LOWER:          0 GB        64 KB      0.00%
+Finished building target: hello world.axf
+ 
+make --no-print-directory post-build
+Performing post-build steps
+arm-none-eabi-size "hello world.axf"; # arm-none-eabi-objcopy -v -O binary "hello world.axf" "hello world.bin" ; # checksum -p MK22FN512xxx12 -d "hello world.bin";
+   text	   data	    bss	    dec	    hex	filename
+   7112	      4	   8384	  15500	   3c8c	hello world.axf
+ 
